@@ -5,12 +5,7 @@ date:   2015-03-28 21:05:30
 categories: jekyll update2
 ---
 
-It really has been a crazy `_ride`
-`akSFI`
-'sdfnksd'
-{% highlight ruby %}
-It really has been a crazy `_ride`
-{% endhighlight %}
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
 
 
 [jekyll]:      http://jekyllrb.com
