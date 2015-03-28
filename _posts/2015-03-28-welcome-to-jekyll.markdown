@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to jmiller70"
+title:  "Welcome to jmiller70!"
 date:   2015-03-28 13:11:36
 categories: jekyll update
 ---
