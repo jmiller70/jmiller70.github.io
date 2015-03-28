@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Snow Day"
+date:   2015-03-28 13:11:36
+categories: jekyll update
+---
+  A few weeks into my stint at SIU-C, we had a closure due to snow, this never
+  happens here! But since I have co e on board, we have  had four closures in
+  1 year and 5 months.
