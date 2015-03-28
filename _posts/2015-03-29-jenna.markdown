@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Snow Day"
+date:   2015-03-29 13:11:36
+categories: jekyll update
+---
+  Jenna Katlynd
+  ({{ site.url }}/assets/IMG_1751.jpg)
