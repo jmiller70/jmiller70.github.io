@@ -16,8 +16,9 @@ I am now part of the University Housing IT Department at Southern Illinois
 University-Carbondale.  Actually I am the IT Director for University Housing at
 SIU-C, with a functional title of Assistant Director-IT.
   The Housing IT office provides dedicated support for University Housing
-  administrative offices, student computer labs, website design/development, and
-  residence hall cable television. The services provided can be broken down into the following categories.
+administrative offices, student computer labs, website design/development, and
+residence hall cable television. The services provided can be broken down into
+the following categories:
 
 IT Management and Administration
 1.	Assist senior management in strategic planning as it relates to technology needs, both in Housing administrative offices, students residences and common areas.
@@ -27,12 +28,12 @@ IT Management and Administration
 Information Systems / Database Management
 4.	Provide on-going systems analysis of Housing business operations to determine priorities and implement new and enhanced data processing solutions.
 5.	Administration, support and maintenance of StarRez, a comprehensive housing management system solution for:
-Student applications, contracts, and payments
-Occupancy management
-Room maintenance management
-Package and physical resource management
-Visitor tracking
- Reporting
+        Student applications, contracts, and payments
+        Occupancy management
+        Room maintenance management
+        Package and physical resource management
+        Visitor tracking
+        Reporting
 o	Design, development, and administration of StarRez web portal for online student applications, contracts and room selection.
 o	Regular implementation of new and/or enhanced StarRez features to improve both customer service and Housing business operations.
 o	Provide Housing staff with StarRez technical support, training and user documentation.
@@ -46,14 +47,14 @@ o	StarRez software license and support management.
 6.	Maintain dining plan and building access data in CS Gold Student ID System.
 
 7.	Administration, support and maintenance of CBORD Food Service Suite, a comprehensive food service management system solution for:
-Dining Inventory
-Menu Management
-Point-of-Sale
-Product Ordering
-Nutrition Knowledge Base
-Reporting
-NetHimms Inventory Scanners
-Technical Support
+        Dining Inventory
+        Menu Management
+        Point-of-Sale
+        Product Ordering
+        Nutrition Knowledge Base
+        Reporting
+        NetHimms Inventory Scanners
+        Technical Support
 8.	Provide telephone, email, and on-site technical support for approximately 250 client workstations and devices.
 9.	Provide support for Microsoft Exchange Server user accounts.
 10.	Develop and implement strategies in cooperation with campus IT to facilitate the migration of Housing users to the campus active directory.
@@ -67,15 +68,15 @@ Technical Support
 18.	Function as campus IT liaison.
 Server Administration
 19.	Perform installations, administration, and support for multiple production servers which provide the following services:
-o	StarRez housing management software
-o	StarRez web portal and services (IIS)
-o	Distributed File System (file server)
-o	Microsoft SQL Server (database)
-o	Microsoft Windows Deployment Services (operating system installation)
-o	Microsoft Hyper-V (virtual server management)
-o	Apache+Passanger Web Services (Website and Resident & Staff Portal)
-o	Micros 9700 Point-of-Sale System  (dining cash operations)
-o	CBord Foodservice Suite (dining inventory and menu management)
+    o	StarRez housing management software
+    o	StarRez web portal and services (IIS)
+    o	Distributed File System (file server)
+    o	Microsoft SQL Server (database)
+    o	Microsoft Windows Deployment Services (operating system installation)
+    o	Microsoft Hyper-V (virtual server management)
+    o	Apache+Passanger Web Services (Website and Resident & Staff Portal)
+    o	Micros 9700 Point-of-Sale System  (dining cash operations)
+    o	CBord Foodservice Suite (dining inventory and menu management)
 20.	Develop strategic plans as needed for production server upgrades and/or replacement.
 21.	Installation, configuration, and administration of Dell EqualLogic iSCSI Storage Area Network.
 22.	Evaluation, ordering, and installation of servers, desktop workstations, printers, and tablets.
@@ -85,27 +86,27 @@ Web Design, Development and Maintenance
 25.	Create and maintain SIU Carbondale approved HTML5 + CSS3 site templates.
 26.	Coordinate updates to University Housing’s website.
 27.	Design, develop, and maintain web applications written using Ruby and Rails 3.x/4.x
-o	Student/Public features:
-•	Website Content Management System for information pages and forms
-•	Dining menus (for use on the University Housing website and SIU Mobile app)
-•	“Shout Out” employee recognition program
-•	Student employment applications
-•	Resident Assistant Nominations
-o	Internal/Business features:
-•	Resident Assistant portal for duty scheduling, reporting, and program tracking
-•	Residence Hall and Apartment rate calculators
-•	P-Card purchase tracking
-•	Computer trouble ticket tracking
+    o	Student/Public features:
+      •	Website Content Management System for information pages and forms
+      •	Dining menus (for use on the University Housing website and SIU Mobile app)
+      •	“Shout Out” employee recognition program
+      •	Student employment applications
+      •	Resident Assistant Nominations
+    o	Internal/Business features:
+      •	Resident Assistant portal for duty scheduling, reporting, and program tracking
+      •	Residence Hall and Apartment rate calculators
+      •	P-Card purchase tracking
+      •	Computer trouble ticket tracking
 28.	Design, develop, and maintain web applications written using Ruby, Rails 3.x/4.x and the StarRez REST API
-o	Student/Public features:
-•	Room maintenance request submissions
-•	Block 20 meal plan purchases with PCI compliance
-•	Apartment Notice of Intent to Vacate
-o	Internal/Business features:
-•	Room maintenance reports
-•	Early arrival tracking
-•	Package Tracking
-•	Visitor Tracking
+    o	Student/Public features:
+      •	Room maintenance request submissions
+      •	Block 20 meal plan purchases with PCI compliance
+      •	Apartment Notice of Intent to Vacate
+    o	Internal/Business features:
+      •	Room maintenance reports
+      •	Early arrival tracking
+      •	Package Tracking
+      •	Visitor Tracking
 29.	Produce end-user documentation for website knowledge base and user guides.
 Student Computer Labs
 30.	Administer three student computer labs located in Trueblood Hall, Lentz Hall, and in Evergreen Terrace containing 75 workstations.
@@ -117,54 +118,55 @@ Residence Hall Cable Television
 35.	Perform basic troubleshooting and replacement of faulty distribution equipment.
 Software Solutions
 The following software solutions are in daily use by University Housing staff.
-•	General Business Operations
-o	StarRez Housing Management System
-o	AIS Production System
-o	Banner
-o	CSGold
-o	Symplicity
-o	iPay
-o	SeattleTech Conference Programmer (CP)
-o	Golden (ODS Reporting Tool)
-o	DEA Event Management Systems
-o	Microsoft Office 2010
-o	WASP Inventory Control
-•	Marketing and Promotions
-o	Adobe Creative Suite w/ ColorEfx Pro 4
-o	Adobe Final Cut Pro
-o	Easypano Studio 2012 (virtual tour software)
-o	Blackbox iCompel Digital Signage
-•	Residence Hall Dining
-o	CBord Foodservice Suite
-o	Micros 9700 Point of Sale
-•	Facilities Monitoring
-o	Net Guard EVS
-o	Procuro PIMM
-o	Procuro MOS2
-o	TempElert
-o	EMS Panarama
-o	LoGit PC
-o	NVR 2.2
-•	Desktop & Server Software
-o	Microsoft Windows 7
-o	Microsoft Windows Server 2008 R2
-o	Ubuntu Linux LTS
+      •	General Business Operations
+        o	StarRez Housing Management System
+        o	AIS Production System
+        o	Banner
+        o	CSGold
+        o	Symplicity
+        o	iPay
+        o	SeattleTech Conference Programmer (CP)
+        o	Golden (ODS Reporting Tool)
+        o	DEA Event Management Systems
+        o	Microsoft Office 2010
+        o	WASP Inventory Control
+      •	Marketing and Promotions
+        o	Adobe Creative Suite w/ ColorEfx Pro 4
+        o	Adobe Final Cut Pro
+        o	Easypano Studio 2012 (virtual tour software)
+        o	Blackbox iCompel Digital Signage
+      •	Residence Hall Dining
+        o	CBord Foodservice Suite
+        o	Micros 9700 Point of Sale
+      •	Facilities Monitoring
+        o	Net Guard EVS
+        o	Procuro PIMM
+        o	Procuro MOS2
+        o	TempElert
+        o	EMS Panarama
+        o	LoGit PC
+        o	NVR 2.2
+      •	Desktop & Server Software
+        o	Microsoft Windows 7
+        o	Microsoft Windows Server 2008 R2
+        o	Ubuntu Linux LTS
 
 Information & Physical Security
 Security concerns for Housing IT operations are categorized in terms of software and physical threats.
 Software Threat Prevention in use by University Housing
-•	Managed antivirus, anti-malware, and network threat protection software (Microsoft Forefront and Symantec Endpoint Protection Services).
-•	Managed software patch and update software (Microsoft System Center Configuration Manager).
-•	Group polices to manage server and workstation firewall configuration.
-•	Firewall appliance for server firewall and threat detection.
-•	Regular file content scans for identifying and tracking sensitive data.
-•	Access to network resources via individual accounts accessed by a 16 character password and validated against the campus central active directory (single-sign on).
+      •	Managed antivirus, anti-malware, and network threat protection software (Microsoft Forefront and Symantec Endpoint Protection Services).
+      •	Managed software patch and update software (Microsoft System Center Configuration Manager).
+      •	Group polices to manage server and workstation firewall configuration.
+      •	Firewall appliance for server firewall and threat detection.
+      •	Regular file content scans for identifying and tracking sensitive data.
+      •	Access to network resources via individual accounts accessed by a 16 character password and validated
+        against the campus central active directory (single-sign on).
 Physical Threat Prevention in use by University Housing
-•	Servers are located in staffed or locked rooms.
-•	Server rooms leverage environmental monitoring systems.
-•	Non-staffed server room leverage intrusion detection (door trigger and motion capture cameras).
-•	Non-staffed server room is FOB access in order to record entry.
-•	Non-staffed server room is tied to diesel generator power source.
-•	Staffed server room is locked during non-business hours.
-•	Servers are on dedicated circuits with battery backups.
-•	Physical media is destroyed upon decommission.
+      •	Servers are located in staffed or locked rooms.
+      •	Server rooms leverage environmental monitoring systems.
+      •	Non-staffed server room leverage intrusion detection (door trigger and motion capture cameras).
+      •	Non-staffed server room is FOB access in order to record entry.
+      •	Non-staffed server room is tied to diesel generator power source.
+      •	Staffed server room is locked during non-business hours.
+      •	Servers are on dedicated circuits with battery backups.
+      •	Physical media is destroyed upon decommission.
