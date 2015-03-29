@@ -4,7 +4,6 @@ title:  "Snow Day"
 date:   2015-03-29 13:11:36
 categories: jekyll update
 ---
-  A few weeks into my stint at SIU-C, we had a closure due to snow, this never
-  happens here! But since I have come on board last year, we have  had four closures in
-  1 year and 5 months.
-  ![SNOW DAY!!!!!!]({{ site.url }}/assets/raz.jpg)
+  A few weeks into my new job at SIU-C, we had a closure due to snow, this never
+  happens here!  Siu had a serious reputation for not shutting down. However since I have come on board last year, we have  had 5 closures in  1 year and 5 months!
+  [SNOW DAy]({{ site.url }}/assets/raz.jpg)
