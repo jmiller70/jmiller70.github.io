@@ -19,7 +19,7 @@ SIU-C, with a functional title of Assistant Director-IT.
 administrative offices, student computer labs, website design/development, and
 residence hall cable television. The services provided can be broken down into
 the following categories:
-
+---
 IT Management and Administration
 1.	Assist senior management in strategic planning as it relates to technology needs, both in Housing administrative offices, students residences and common areas.
 2.	Manage vendor contracts and purchases for housing management systems, cable television, electronic payment gateways, and other third party business products and services.
@@ -34,16 +34,16 @@ Information Systems / Database Management
         Package and physical resource management
         Visitor tracking
         Reporting
-    o	Design, development, and administration of StarRez web portal for online student applications, contracts      and room selection.
-    o	Regular implementation of new and/or enhanced StarRez features to improve both customer service and Housing business operations.
-    o	Provide Housing staff with StarRez technical support, training and user documentation.
-    o	Design, development and management of the business processes and software utility programs used to facilitate the transfer of data within University Housing and with campus systems and departments (Bursar, admissions, ID Office, SRR, PSO, DPS, Banner).
-    o	Batch processing of contract pre-payments and block 20 meal purchases, approximately $900,000 annually.
-    o	Administration of SallieMae hosted payment gateway for online payments.
-    o	Design and development of critical business reports including occupancy, summary statistics, demographics and assessments.
-    o	Design and development of routine and ad-hoc queries to provide reports, form letters, labels and email services to both Housing and University staff.
-    o	Design, development and administration of quality control and reconciliation reports; ensuring the integrity of data between Housing units, departments on campus and students.
-    o	StarRez software license and support management.
+        o	Design, development, and administration of StarRez web portal for online student applications, contracts      and room selection.
+        o	Regular implementation of new and/or enhanced StarRez features to improve both customer service and Housing business operations.
+        o	Provide Housing staff with StarRez technical support, training and user documentation.
+        o	Design, development and management of the business processes and software utility programs used to facilitate the transfer of data within University Housing and with campus systems and departments (Bursar, admissions, ID Office, SRR, PSO, DPS, Banner).
+        o	Batch processing of contract pre-payments and block 20 meal purchases, approximately $900,000 annually.
+        o	Administration of SallieMae hosted payment gateway for online payments.
+        o	Design and development of critical business reports including occupancy, summary statistics, demographics and assessments.
+        o	Design and development of routine and ad-hoc queries to provide reports, form letters, labels and email services to both Housing and University staff.
+        o	Design, development and administration of quality control and reconciliation reports; ensuring the integrity of data between Housing units, departments on campus and students.
+        o	StarRez software license and support management.
 6.	Maintain dining plan and building access data in CS Gold Student ID System.
 
 7.	Administration, support and maintenance of CBORD Food Service Suite, a comprehensive food service management system solution for:
@@ -68,15 +68,15 @@ Information Systems / Database Management
 18.	Function as campus IT liaison.
 Server Administration
 19.	Perform installations, administration, and support for multiple production servers which provide the following services:
-    o	StarRez housing management software
-    o	StarRez web portal and services (IIS)
-    o	Distributed File System (file server)
-    o	Microsoft SQL Server (database)
-    o	Microsoft Windows Deployment Services (operating system installation)
-    o	Microsoft Hyper-V (virtual server management)
-    o	Apache+Passanger Web Services (Website and Resident & Staff Portal)
-    o	Micros 9700 Point-of-Sale System  (dining cash operations)
-    o	CBord Foodservice Suite (dining inventory and menu management)
+        o	StarRez housing management software
+        o	StarRez web portal and services (IIS)
+        o	Distributed File System (file server)
+        o	Microsoft SQL Server (database)
+        o	Microsoft Windows Deployment Services (operating system installation)
+        o	Microsoft Hyper-V (virtual server management)
+        o	Apache+Passanger Web Services (Website and Resident & Staff Portal)
+        o	Micros 9700 Point-of-Sale System  (dining cash operations)
+        o	CBord Foodservice Suite (dining inventory and menu management)
 20.	Develop strategic plans as needed for production server upgrades and/or replacement.
 21.	Installation, configuration, and administration of Dell EqualLogic iSCSI Storage Area Network.
 22.	Evaluation, ordering, and installation of servers, desktop workstations, printers, and tablets.
@@ -86,23 +86,23 @@ Web Design, Development and Maintenance
 25.	Create and maintain SIU Carbondale approved HTML5 + CSS3 site templates.
 26.	Coordinate updates to University Housing’s website.
 27.	Design, develop, and maintain web applications written using Ruby and Rails 3.x/4.x
-    o	Student/Public features:
+        o	Student/Public features:
       •	Website Content Management System for information pages and forms
       •	Dining menus (for use on the University Housing website and SIU Mobile app)
       •	“Shout Out” employee recognition program
       •	Student employment applications
       •	Resident Assistant Nominations
-    o	Internal/Business features:
+        o	Internal/Business features:
       •	Resident Assistant portal for duty scheduling, reporting, and program tracking
       •	Residence Hall and Apartment rate calculators
       •	P-Card purchase tracking
       •	Computer trouble ticket tracking
 28.	Design, develop, and maintain web applications written using Ruby, Rails 3.x/4.x and the StarRez REST API
-    o	Student/Public features:
+        o	Student/Public features:
       •	Room maintenance request submissions
       •	Block 20 meal plan purchases with PCI compliance
       •	Apartment Notice of Intent to Vacate
-    o	Internal/Business features:
+        o	Internal/Business features:
       •	Room maintenance reports
       •	Early arrival tracking
       •	Package Tracking
