@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
+title: About Jeff
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Jeff Miller is an IT Professional living in Makanda, Illinois with his wife
+Jennifer and 3 children, Drew, Robby, and Jenna.
