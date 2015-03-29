@@ -20,19 +20,12 @@ to pursue something better.  I ended up testing for a few positions and 1 month
 went by. Then, a really  great opportunity opened up that would turn out to be 
 the job that I hope to keep until I retire.  
  
- I am now part of the University Housing IT Department at Southern Illinois
-University-Carbondale.  Actually I am the IT Director for University Housing at
-SIU-C, with a functional title of Assistant Director-IT.
+ I am now part of the University Housing IT Department.  Actually I am the IT 
+ Director for a State University, with a functional title of Assistant Director-IT.
   The Housing IT office provides dedicated support for University Housing
 administrative offices, student computer labs, website design/development, and
 residence hall cable television. The services provided can be broken down into
 the following categories:
-
-
-
-
-
-
 
 IT Management and Administration
 1.	Assist senior management in strategic planning as it relates to technology needs, both in Housing              administrative offices, students residences and common areas.
