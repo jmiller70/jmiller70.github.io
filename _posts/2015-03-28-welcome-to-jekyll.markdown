@@ -4,6 +4,13 @@ title:  "Welcome!"
 date:   2015-03-28 13:11:36
 categories: jekyll update
 ---
+ This is my blog that means nothing really.  It was started as a development
+  project so I can gain a greater understanding of Ruby programming.  At my day
+  job, I  am, among many IT Administrative roles,  the Director of web development.
+  I was hired in December 2013 and   inherited a thriving and robust Ruby on
+   Rails application in the form of an employee and student web portal at a
+   University. Using Jekyll for this blog gives me another low stakes environment
+   to crash around on some cool code and learn.
   2014 was one of the most incredible year's of my life.  Having worked at DxR
 Development Group for 13 years and 9 Months in the role of Manager of Technical
 Support- I finally grew tired of the atmosphere and decided to explore other IT
