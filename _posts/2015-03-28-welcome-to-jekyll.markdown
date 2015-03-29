@@ -19,7 +19,15 @@ SIU-C, with a functional title of Assistant Director-IT.
 administrative offices, student computer labs, website design/development, and
 residence hall cable television. The services provided can be broken down into
 the following categories:
----
+
+
+
+
+
+
+
+
+
 IT Management and Administration
 1.	Assist senior management in strategic planning as it relates to technology needs, both in Housing administrative offices, students residences and common areas.
 2.	Manage vendor contracts and purchases for housing management systems, cable television, electronic payment gateways, and other third party business products and services.
