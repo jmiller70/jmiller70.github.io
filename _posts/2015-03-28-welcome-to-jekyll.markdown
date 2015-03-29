@@ -26,10 +26,8 @@ the following categories:
 
 
 
-
-
 IT Management and Administration
-1.	Assist senior management in strategic planning as it relates to technology needs, both in Housing administrative offices, students residences and common areas.
+1.	Assist senior management in strategic planning as it relates to technology needs, both in Housing              administrative offices, students residences and common areas.
 2.	Manage vendor contracts and purchases for housing management systems, cable television, electronic payment gateways, and other third party business products and services.
 3.	Ensures compliance with all campus, state, federal, and Payment Card Industry (PCI) policies and regulations governing IT services for an academic institution.
 
