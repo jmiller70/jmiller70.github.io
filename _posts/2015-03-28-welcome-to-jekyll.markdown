@@ -34,16 +34,16 @@ Information Systems / Database Management
         Package and physical resource management
         Visitor tracking
         Reporting
-o	Design, development, and administration of StarRez web portal for online student applications, contracts and room selection.
-o	Regular implementation of new and/or enhanced StarRez features to improve both customer service and Housing business operations.
-o	Provide Housing staff with StarRez technical support, training and user documentation.
-o	Design, development and management of the business processes and software utility programs used to facilitate the transfer of data within University Housing and with campus systems and departments (Bursar, admissions, ID Office, SRR, PSO, DPS, Banner).
-o	Batch processing of contract pre-payments and block 20 meal purchases, approximately $900,000 annually.
-o	Administration of SallieMae hosted payment gateway for online payments.
-o	Design and development of critical business reports including occupancy, summary statistics, demographics and assessments.
-o	Design and development of routine and ad-hoc queries to provide reports, form letters, labels and email services to both Housing and University staff.
-o	Design, development and administration of quality control and reconciliation reports; ensuring the integrity of data between Housing units, departments on campus and students.
-o	StarRez software license and support management.
+    o	Design, development, and administration of StarRez web portal for online student applications, contracts      and room selection.
+    o	Regular implementation of new and/or enhanced StarRez features to improve both customer service and Housing business operations.
+    o	Provide Housing staff with StarRez technical support, training and user documentation.
+    o	Design, development and management of the business processes and software utility programs used to facilitate the transfer of data within University Housing and with campus systems and departments (Bursar, admissions, ID Office, SRR, PSO, DPS, Banner).
+    o	Batch processing of contract pre-payments and block 20 meal purchases, approximately $900,000 annually.
+    o	Administration of SallieMae hosted payment gateway for online payments.
+    o	Design and development of critical business reports including occupancy, summary statistics, demographics and assessments.
+    o	Design and development of routine and ad-hoc queries to provide reports, form letters, labels and email services to both Housing and University staff.
+    o	Design, development and administration of quality control and reconciliation reports; ensuring the integrity of data between Housing units, departments on campus and students.
+    o	StarRez software license and support management.
 6.	Maintain dining plan and building access data in CS Gold Student ID System.
 
 7.	Administration, support and maintenance of CBORD Food Service Suite, a comprehensive food service management system solution for:
@@ -55,7 +55,7 @@ o	StarRez software license and support management.
         Reporting
         NetHimms Inventory Scanners
         Technical Support
-8.	Provide telephone, email, and on-site technical support for approximately 250 client workstations and devices.
+8.	Provide telephone, email, and on-site technical support for approximately 250 client workstations and     devices.
 9.	Provide support for Microsoft Exchange Server user accounts.
 10.	Develop and implement strategies in cooperation with campus IT to facilitate the migration of Housing users to the campus active directory.
 11.	Software support for marketing, photography, and videography related software.
