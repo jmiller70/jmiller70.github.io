@@ -7,7 +7,7 @@ categories: jekyll update
 
  This is my blog that means nothing really.  It was started as a development
 project so I can gain a greater understanding of Ruby programming.  At my day
-job, I  am, among many IT Administrative roles,  the Director of web development.
+job I  am, among many IT Administrative roles,  the Director of web development.
 I was hired in December 2013 and inherited a thriving and robust Ruby on
 Rails application in the form of an employee and student web portal at a
 University. Using Jekyll for this blog gives me another low stakes environment
@@ -16,13 +16,17 @@ to crash around on some cool code and learn.
 Development Group for 13 years and 9 Months in the role of Manager of Technical
 Support- I finally grew tired of the atmosphere and decided to explore other IT
 opportunities. I began applying at the local University for various technical
-positions. I felt like it would take years to get on, butcmy sister  encouraged
-me to continue to pursue something better.  I ended uptesting for a few
+positions. I felt like it would take years to get on, but my sister  encouraged
+me to continue to pursue something better.  I ended up testing for a few
 positions and 1 month went by. Then, a really  great opportunity opened up that
 would turn out to be the job that I hope to keep until I retire.  
 I am now part of the University Housing IT Department at a state University.  
 Actually I am the IT Director of University Housing, with a functional title of
-Assistant Director-IT.
+Assistant Director-IT.  Working for Housing has been incredible, as we have such
+a diverse landscape that incorporates such a wide variety of IT areas. In fact,
+I like to describe it as an IT playground. Here is an overview of my department,
+when I come in to work each day , any of these areas can be the one that I will
+need to focus on for problem solving or to provide general direction.
 
 
 
