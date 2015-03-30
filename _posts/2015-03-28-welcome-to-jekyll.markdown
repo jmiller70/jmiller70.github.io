@@ -12,6 +12,7 @@ I was hired in December 2013 and inherited a thriving and robust Ruby on
 Rails application in the form of an employee and student web portal at a
 University. Using Jekyll for this blog gives me another low stakes environment
 to crash around on some cool code and learn.
+
 2014 was one of the most incredible year's of my life.  Having worked at DxR
 Development Group for 13 years and 9 Months in the role of Manager of Technical
 Support- I finally grew tired of the atmosphere and decided to explore other IT
@@ -20,6 +21,7 @@ positions. I felt like it would take years to get on, but my sister  encouraged
 me to continue to pursue something better.  I ended up testing for a few
 positions and 1 month went by. Then, a really  great opportunity opened up that
 would turn out to be the job that I hope to keep until I retire.  
+
 I am now part of the University Housing IT Department at a state University.  
 Actually I am the IT Director of University Housing, with a functional title of
 Assistant Director-IT.  Working for Housing has been incredible, as we have such
