@@ -23,17 +23,9 @@ would turn out to be the job that I hope to keep until I retire.
 I am now part of the University Housing IT Department at a state University.  
 Actually I am the IT Director of University Housing, with a functional title of
 Assistant Director-IT.
-  2014 was one of the most incredible year's of my life.  Having worked at DxR
-Development Group for 13 years and 9 Months in the role of Manager of Technical
-Support- I finally grew tired of the atmosphere and decided to explore other IT
-opportunities. I applied at the local University for various technical positions.
-I felt like it would take years to get on, butmy sister  encouraged me to continue
-to pursue something better.  I ended up testing for a few positions and 1 month
-went by. Then, a really  great opportunity opened up that would turn out to be
-the job that I hope to keep until I retire.  
 
- I am now part of the University Housing IT Department.  Actually I am the IT
- Director for a State University, with a functional title of Assistant Director-IT.
+
+
 
 
 IT Management and Administration
