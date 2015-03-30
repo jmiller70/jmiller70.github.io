@@ -14,6 +14,6 @@ categories: jekyll update
    arrive  in April so it was impossible. However, Jenna ended up following that
    convention anyway,  I just wasn't thinking the right way. Because you see,  
    she was born on April 5th , 7 days after my wife Jennifer's birthday, March
-   29th. Duh!  Happy Burthday!
+   29th. Duh!  Happy Birthday!
 
   ![Bday]({{ site.url }}/assets/IMG_2188.jpg)
