@@ -10,8 +10,8 @@ project so I can gain a greater understanding of Ruby programming.  At my day
 job I  am, among many IT Administrative roles,  the Director of web development.
 I was hired in December 2013 and inherited a thriving and robust Ruby on
 Rails application in the form of an employee and student web portal at a
-University. Using Jekyll for this blog gives me another low stakes environment
-to crash around on some cool code and learn.
+University. Using Jekyll for this blog gives me another environment to play around
+with a Ruby Gem.
 
 2014 was one of the most incredible year's of my life.  Having worked at DxR
 Development Group for 13 years and 9 Months in the role of Manager of Technical
