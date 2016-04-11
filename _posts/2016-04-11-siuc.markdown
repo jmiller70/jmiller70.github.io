@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Jenna"
-date:   2015-03-29 13:11:36
+title:  "SIUC"
+date:   2016-04-11 13:11:36
 categories: jekyll update
 ---
-  Jenna Katlynd
-
-  ![Jenna]({{ site.url }}/assets/IMG_1751.jpg)
+Its been a long time since I posted something, so here is something.
+  ![Robby and his new cricket, he's kinda proud if you cant tell]({{ site.url }}/assets/robby2016.jpg)
