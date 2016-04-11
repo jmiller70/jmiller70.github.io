@@ -4,23 +4,31 @@ title:  "Welcome!"
 date:   2015-03-28 13:11:36
 categories: jekyll update
 ---
-  2014 was one of the most incredible year's of my life.  Having worked at DxR
+
+ This is my blog that means nothing really.  It was started as a development
+project so I can gain a greater understanding of Ruby programming.  At my day
+job I  am, among many IT Administrative roles,  the Director of web development.
+I was hired in December 2013 and inherited a thriving and robust Ruby on
+Rails application in the form of an employee and student web portal at a
+University. Using Jekyll for this blog gives me another environment to play around
+with a Ruby Gem.
+
+2014 was one of the most incredible year's of my life.  Having worked at DxR
 Development Group for 13 years and 9 Months in the role of Manager of Technical
 Support- I finally grew tired of the atmosphere and decided to explore other IT
-opportunities. I began applied at Southern Illinois University at Carbondale
-for various technical positions. I felt like it would take years to get on, but
-my sister  encouraged me to continue to pursue something better.  I ended up
-testing for a few positions and 1 month went by. Then, a really  great opportunity
-opened up that would turn out to be the job that I hope to keep until I retire.  
-I am now part of the University Housing IT Department at Southern Illinois
-University-Carbondale.  Actually I am the IT Director for University Housing at
-SIU-C, with a functional title of Assistant Director-IT.
-  The Housing IT office provides dedicated support for University Housing
-administrative offices, student computer labs, website design/development, and
-residence hall cable television. The services provided can be broken down into
-the following categories:
+opportunities. I began applying at the local University for various technical
+positions. I felt like it would take years to get on, but my sister  encouraged
+me to continue to pursue something better.  I ended up testing for a few
+positions and 1 month went by. Then, a really  great opportunity opened up that
+would turn out to be the job that I hope to keep until I retire.  
 
-
+I am now part of the University Housing IT Department at a state University.  
+Actually I am the IT Director of University Housing, with a functional title of
+Assistant Director-IT.  Working for Housing has been incredible, as we have such
+a diverse landscape that incorporates such a wide variety of IT areas. In fact,
+I like to describe it as an IT playground. Here is an overview of my department,
+when I come in to work each day , any of these areas can be the one that I will
+need to focus on for problem solving or to provide general direction.
 
 
 
