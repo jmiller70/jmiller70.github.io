@@ -4,6 +4,6 @@ title:  "The Blonde"
 date:   2016-05-11 13:11:36
 categories: jekyll update
 ---
-Dont tell anyone but I had my hands allover this cheap blonde all weekend. Plays
+Dont tell anyone but I had my hands ALL OVER  this cheap blonde all weekend. Plays
 like a dream!
   ![Wildkat]({{ site.url }}/assets/wildkat.png)
