@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-Miller Pro Cycle
-<html lang="en-US">
-<head>
+<!-- @author jeff miller, Millers Bicycles Index Page, Southern Illinois University  Developed: 9-1-2019  Tested: 9-29-2019 -->
+<html lang="en">
+    <head>
         <meta charset="utf-8">
-        <title>Page Title</title>
-</head>
-<body>
+        <title>Miller's Bicycles</title> 
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
 
-</body>
+        <meta name="description" content="A small bike shop with 5 differen brands of bike"> <meta name="keywords" content="miller, Pro, cycle, Trek, GT, BMX, Road Bikes, Mountain Bikes, 29'ers">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <header>
+        <div class="bluetouch"><img src="images/IMG_0705.png"alt="MPC Logo"></div> 
+        <h1>Miller's Bicycles</h1>      
+        </header> 
+       
+         <!-- Navigation Menu -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.htm" class="current">Home</a></li> 
+                <li><a href="sales.htm">Sales</a></li> 
+                <li><a href="rentals.htm" >Rentals</a></li>
+                <li><a href="services.htm" >Services</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+            <h2>The family oriented bike shop.</h2>
+            <p class ="first">Come on down to our shop and check out some of our bikes. We have bikes with or wthout tassles on the handlebars! We also carry childrens bikes!</p>
+            <p >We only carry the best, We have 5 different models!</p>
+            <!-- block quote -->
+            <blockquote>Specializing in: Road Bikes, Mountain Bikes, 29'ers, and BMX Bikes!
+            </blockquote>
+            <!--list of bikes -->
+            <ol>
+                <li>GT</li> <li>TREK</li> <li>Gary Fisher</li><li>HUFFY</li><li>Schwinn</li>
+            </ol> 
+              <!--inline element -->
+            <p>If you don't see the model you want <em>we can order something you like.</em></p> 
+            <p>Save a bundle at our <strong>big yearend sale</strong>.</p> 
+            <p>How to contact Jeff Miller &amp; Staff:</p> 
+        
+            <address>1-800-aaa-xxxx<br></address>
+            <pre>
+            
+<!-- my address -->
+Store Address:
+Miller's Bicycles
+189 BMX Drive
+Makanda,IL
+62958
+            </pre> 
+     </body>
+
 </html>
