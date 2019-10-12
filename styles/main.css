@@ -276,7 +276,7 @@ figcaption {
 
 
 
-.swap-on-hover {
+.cute {
     width: 100%;
     min-width: 300px;
     max-width: 1024px;
@@ -288,9 +288,9 @@ figcaption {
 
 
 
-/*  absolute to the container, and border bluetouch */
+/*  hover over and  blue touch on banner */
 
-.swap-on-hover img {
+.cute img {
     
     width: 100%;
     min-width: 300px;
@@ -307,17 +307,16 @@ figcaption {
 	height: 350px;
 }
 
-/* 
-fading effect. */
+/*  fading effect. */
 
-.swap-on-hover .swap-on-hover__front-image {
+.cute .cuter {
   z-index: 9999;
   transition: opacity .5s linear;
   cursor: pointer;
 }
 
 
-.swap-on-hover:hover > .swap-on-hover__front-image{
+.cute:hover > .cuter{
   opacity: 0;
 }
 
