@@ -188,6 +188,7 @@ body {
     max-width 1024px;
     background-color: gray; /* this color is gray */
     margin: 10px auto;
+
     } 
 header { 
     width: 97.917%;          /* 940 / 960 * 100 */
@@ -254,24 +255,79 @@ li {
     }
 
 /* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
-.bluetouch img {
+
+
+
+figure {
+    float: left;
+    margin-right: 1.5em; 
+}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-top: .25em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+.swap-on-hover {
     width: 100%;
-    max-width: 600px;
+    min-width: 300px;
+    max-width: 1024px;
+    position: relative;	
+	margin:  0 auto;
+	max-width: 630px;
+    height: 350px;
+}
+
+
+
+/*  absolute to the container, and border bluetouch */
+
+.swap-on-hover img {
+    
+    width: 100%;
+    min-width: 300px;
+    max-width: 1024px;
+    position: absolute;	
+	overflow: hidden;
     border: 2px solid #B5D3E7;
-    margin: 0;
-    padding: 0;
     border-radius: 1000px;
     -moz-border-radius: 1000px;
-    position: relative;
-    right: 10px; 
-    top: 10px; 
-    }
+    margin: 0;
+	
+    /* Sets the width and height for the images*/
+	max-width: 1024px;
+	height: 350px;
+}
 
-/* basic images where blue borders are not required */ 
+/* 
+fading effect. */
+
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+
+.swap-on-hover:hover > .swap-on-hover__front-image{
+  opacity: 0;
+}
+
 img {
     width: 100%;
     max-width: 100px;
     position: static;
     }
-    
+
+
+
+
 
