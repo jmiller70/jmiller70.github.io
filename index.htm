@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<!-- @author jeff miller, Millers Bicycles Index Page, Southern Illinois University  Developed: 9-1-2019  Tested: 9-29-2019 -->
+<!-- @author jeff miller, Millers Bicycles Index Page, Southern Illinois University  Developed: 9-1-2019  Tested: 10-13-2019 
+Audio track from: https://freesound.org/people/Snapper4298/sounds/488223/
+-->
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Miller's Bicycles</title> 
+        <link rel="shortcut icon" href="images/millicon.ico">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/slicknav.css"> 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
@@ -21,7 +24,7 @@
     <body>
    
             <figcaption>Miller's Bicycles</figcaption>
-           <figure class="cute">
+            <figure class="cute">
             <img  class="cute" src="images/h4.png"/>
             <img class="cuter" src="images/h3.png"/>
             </figure> 
@@ -29,7 +32,10 @@
    
         <header>
         
-            
+        <audio controls autoplay loop hidden>
+           <source src="audio/snap.mp3" type="audio/mpeg">
+           <p>If you can read this, your browser does not support the audio element.</p>
+        </audio>
      
         </header> 
        
@@ -44,7 +50,9 @@
                 <li><a href="contact.htm" class="lastitem">Contact</a></li>
             </ul> 
         </nav>
+            <main>
             <h2>The family oriented bike shop.</h2>
+            
             <p class ="first">Come on down to our shop and check out some of our bikes. We have bikes with or wthout tassles on the handlebars! We also carry childrens bikes!</p>
             <p >We only carry the best, We have 5 different models!</p>
             <!-- block quote -->
@@ -57,6 +65,7 @@
               <!--inline element -->
             <p>If you don't see the model you want <em>we can order something you like.</em></p> 
             <p>Save a bundle at our <strong>big yearend sale</strong>.</p> 
+            </main>
             <p>How to contact Jeff Miller &amp; Staff:</p> 
         
             <address>1-800-aaa-xxxx<br></address>

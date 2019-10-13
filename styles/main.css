@@ -1,4 +1,4 @@
-/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-02-2019 */ 
+/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-13-2019 */ 
 
 
 
@@ -36,6 +36,12 @@ aside {
     background-color: #ffffff; /* this color is white for column panel  */
     float: right; 
     }
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    } 
 }
     
 
@@ -75,7 +81,12 @@ aside {
     background-color: #ffffff; /* this color is white for column panel  */
     float: right; 
     }
-    
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    }  
 }
 
 /* mobile landscape layout (480px to 767px) */ 
@@ -114,7 +125,9 @@ header {
      /* Switch to one column */ 
 main { 
     display:flex;
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
     } 
     
 article { 
@@ -164,7 +177,9 @@ header {
     /* Switch to one column */ 
 main {  
     display:flex;
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
     } 
     
 article
@@ -204,6 +219,7 @@ p {
     font-size: 1.5em; /* 18 Ã· 16 */ 
     padding-left: 10px 1.0417%;
     padding-right: 10px;
+   
 }
 
 blockquote {
@@ -216,6 +232,7 @@ footer {
     width: 97.917%;            /* 940 / 960 * 100 */
     padding: 10px 1.0417%;
     clear: both; 
+    
     }
     
 ul { 
@@ -326,6 +343,9 @@ img {
     position: static;
     }
 
+music {
+  display:none;
+}
 
 
 
