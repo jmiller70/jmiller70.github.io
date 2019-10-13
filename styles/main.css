@@ -343,10 +343,17 @@ img {
     position: static;
     }
 
-music {
+/* music controls for later
+
+{
   display:none;
 }
 
+audio, embed {
+  position: absolute;
+  z-index: -9999;
+}
+*/
 
 
 
