@@ -289,7 +289,7 @@ figcaption {
 
 
 /*  hover over and  blue touch on banner */
-
+/* burned in */
 .cute img {
     
     width: 100%;
@@ -301,7 +301,7 @@ figcaption {
     border-radius: 1000px;
     -moz-border-radius: 1000px;
     margin: 0;
-	
+	opacity: 1;
     /* Sets the width and height for the images*/
 	max-width: 1024px;
 	height: 350px;
@@ -309,15 +309,15 @@ figcaption {
 
 /*  fading effect. */
 
-.cute .cuter {
+.cute .cuter{
   z-index: 9999;
-  transition: opacity .5s linear;
+  transition: opacity 2s linear;
   cursor: pointer;
 }
 
-
-.cute:hover > .cuter{
-  opacity: 0;
+/* burned in effect on 2nd image */
+.cute:hover > .cuter {
+  opacity: 0.1;
 }
 
 img {
