@@ -1,4 +1,4 @@
-/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-13-2019 */ 
+/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-20-2019 */ 
 
 
 
@@ -212,7 +212,11 @@ header {
     font-size: 2em;
     }
 
-
+th {
+    font-size: 1.2em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}
 
 
 p { 
