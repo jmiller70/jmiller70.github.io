@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- @author jeff miller, Millers Bicycles Contact Page, Southern Illinois University  Developed: 9-21-2019  Tested: 10-13-2019 -->
+<!-- @author jeff miller, Millers Bicycles Contact Page, Southern Illinois University  Developed: 9-21-2019  Tested: 10-27-2019<input type="button" id="submit" onclick="window.location.href = '/index.htm';" value="Submit"/><br>-->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -26,7 +26,7 @@
             
         <header>
                </header> 
-        <!-- Navigation Menu -->
+ <!-- Navigation Menu -->
         <nav id="mobile_menu"></nav> 
         <nav id="nav_menu"> 
             <ul>
@@ -36,10 +36,106 @@
                 <li><a href="services.htm" >Services</a></li> 
                 <li><a href="contact.htm" class="current" class="lastitem">Contact</a></li>
             </ul> 
-        </nav>  
-     
-           
-     
+        </nav>
+  <!-- Submit goes to process page:  <form action="/processed.htm">  for now -->  
+       <form action="/processed.htm"> 
+           <fieldset>
+              <legend>Create an Account and Send a Message!</legend> 
+              <label for="email">E-Mail:</label> 
+              <input type="email" name="email" id="email" required placeholder="Email" autofocus required><br> 
+              <label for="password">Create Password:</label> 
+              <input type="password" name="password" id="password" required placeholder="At least 6 letters or numbers" pattern="[a-zA-Z0-9]{6,}" title="Must be at least 6 alphanumeric characters"><br>  
+               <label for="first_name">Full Name:</label> 
+               <input type="text" name="first_name" id="first_name" required minlength="15" maxlength="25" placeholder="Full Name"><br>
+               
+               <label for="address">Address:</label> 
+               <input type="text" id="address" required minlength="15" maxlength="50" placeholder="Address"><br> 
+               
+               <label for="city">City:</label> 
+               <input type="text" id="city" required minlength="4" maxlength="25" placeholder="City"><br> 
+    <!-- States list Menu --> 
+               <label for="state">State:</label>
+               <select name= "state"  id="state" required><br>
+	                <option value="st">Select</option> 
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+               </select><br> 
+              
+               <label for="zip">ZIP Code:</label> 
+               <input type="text" name="zip" id="zip" required placeholder="99999 or 99999-99999" pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br> 
+               
+               <label for="phone">Phone Number:</label> 
+               <input type="tel" name="phone" id="phone" required inlength="10" maxlength="12" placeholder="xxx-xxx-xxxx" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+               <label for="starting_date">Submision Date:</label> 
+               <input type="date" name="submission_date" id="submission_date" required><br> 
+               
+     <!-- Message Box -->  
+            <fieldset>
+               Message:<br>
+               <textarea id="message" required minlength="50" maxlength="200" placeholder= "Message required: Please type a message between 50 and 200 characters." required ></textarea><br>
+            </fieldset>
+            <fieldset>
+             <div class="form-group options">
+             Specify 1 or more types of inquiry:<br>
+              <div class="col-md-6">
+              <br>
+               <input type="checkbox" name="type" value="sales" required /> Sales<br>
+               <input type="checkbox" name="type" value="service" required /> Service<br>
+               <input type="checkbox" name="type" value="rentals" required /> Rentals
+        <!-- Java Checkbox helper, because checkboxes dont work in groups like radio buttons, in order to ensure that at least one is checked, you must do something extra :) -->
+                  <script>src="text/javascript">
+                $(function(){
+                    var requiredCheckboxes = $('.options :checkbox[required]');
+                    requiredCheckboxes.change(function(){
+                        if(requiredCheckboxes.is(':checked')) {
+                            requiredCheckboxes.removeAttr('required');
+                        } else {
+                            requiredCheckboxes.attr('required', 'required');
+                        }
+                        });
+                });  
+                </script>
+              </div>
+             </div>
+            </fieldset>
+            <fieldset>
+        <!-- Radio bottons will require as a group and must check one -->
+            <div class="form-group options">
+            Bike Type:<br>
+            <div class="col-md-6">
+                <br>
+               <input type="radio" name="type" value="mountain" required />MTB<br>
+               <input type="radio" name="type" value="road" />Road<br> 
+               <input type="radio" name="type" value="both"  />Both
+             </div>
+            </div>
+            </fieldset>
+        <!-- Submit goes to process page:  <form action="/processed.htm">  for now -->  
+               <legend>Submit Your Message</legend> <br>
+               <input type="submit" id="submit" value="Send"><br>
+               <input type="reset" id="reset" value="Reset"><br>
+               
+               
+           </fieldset> 
+            
+          
+        </form>
+
+               
     </body>
 
 </html>
+     
+

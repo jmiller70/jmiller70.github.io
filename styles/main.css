@@ -1,4 +1,4 @@
-/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-13-2019 */ 
+/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-27-2019 */ 
 
 
 
@@ -41,7 +41,14 @@ main {
     flex-direction: column;
     padding: 10px 1.0417%;
     background-color: #ffffff;
-    } 
+    }
+textarea {
+    height: 10em; 
+    width: 75em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+    
 }
     
 
@@ -86,7 +93,14 @@ main {
     flex-direction: column;
     padding: 10px 1.0417%;
     background-color: #ffffff;
-    }  
+    }
+textarea {
+    height: 10em; 
+    width: 45em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+   
 }
 
 /* mobile landscape layout (480px to 767px) */ 
@@ -139,6 +153,13 @@ aside {
     width: 97.917%;        /* 940 / 960 * 100 */
       
     }
+textarea {
+    height: 10em; 
+    width: 35em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+    
 }
 
 /* mobile portrait layout (479px or less) */ 
@@ -193,7 +214,14 @@ aside {
     width: 97.917%;       /* 940 / 960 * 100 */
        
     }
+textarea {
+    height: 10em; 
+    width: 35em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
 }
+
 
 /* the styles for the elements */ 
 body {
@@ -212,7 +240,11 @@ header {
     font-size: 2em;
     }
 
-
+th {
+    font-size: 1.2em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}
 
 
 p { 
@@ -342,6 +374,77 @@ img {
     max-width: 100px;
     position: static;
     }
+table {
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    padding-top: .5em;
+}
+
+fieldset {
+    
+   
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    padding-top: .5em;
+} 
+
+legend {
+    color: black; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    margin-bottom: .5em;
+  
+}
+
+label, input, select { 
+    font-size: 90%;
+} 
+
+label {
+    float: left; 
+    width: 12em;
+    text-align: right; 
+}
+
+input  { 
+    float: left; 
+    width: 15em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+select { 
+    float: left; 
+    width: 15em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+} 
+
+input:valid { 
+    border: 1px solid black; 
+} 
+
+input:invalid { 
+    box-shadow: none; 
+} 
+
+br { 
+    clear: both; 
+}
+
+#buttons input { 
+    width: 10em;
+    float: right; 
+    text-align: left;
+} 
+
+radio {
+    float: left; 
+    width: 9em;
+}
 
 /* music controls for later
 
