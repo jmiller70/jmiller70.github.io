@@ -246,7 +246,7 @@ body {
     font-size: 1em;     /* 16 Ã· 16  */
     width: 90%;          /* changed from 725px;*/
     max-width 1024px;
-    background-color: gray; /* this color is gray */
+    background-color: #C03D09; /* this color is gray */
     margin: 10px auto;
 
     } 
@@ -264,6 +264,7 @@ p {
     font-size: 1.5em; /* 18 Ã· 16 */ 
     padding-left: 10px 1.0417%;
     padding-right: 10px;
+    font-family: 'IndieFlowerRegular';
    
 }
 
@@ -301,7 +302,7 @@ li {
     list-style-type: none; padding: 1em 0;
     font-size: 1.9em;
     text-align: left;
-    background-color: silver;
+    background-color: white;
     } 
 
 #nav_menu ul li { 
@@ -310,7 +311,7 @@ li {
     } 
 #nav_menu ul li a { 
     font-weight: bold; 
-    color: #ffffff; 
+    color: #363A3D; 
     }
 #nav_menu ul li a.current { 
     text-decoration: none; 
@@ -350,7 +351,7 @@ figcaption {
 
 
 
-/*  hover over and  blue touch on banner */
+/*  hover over and  GRAY touch on banner */
 /* burned in */
 .cute img {
     
@@ -359,7 +360,7 @@ figcaption {
     max-width: 1024px;
     position: absolute;	
 	overflow: hidden;
-    border: 2px solid #B5D3E7;
+    border: 2px solid #363A3D;
     border-radius: 1000px;
     -moz-border-radius: 1000px;
     margin: 0;
