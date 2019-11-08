@@ -38,10 +38,11 @@
                 <li><a href="contact.htm" class="current" class="lastitem">Contact</a></li>
             </ul> 
         </nav>
+        <article>
         <p class ="first">Please use the following form to send us a message if you would like to inquire about sales, service, or rentals. Once submitted, you will recieve confirmation that your account is ready to use.</p>
   <!-- Submit goes to process page:  <form action="/response.htm">  for now -->  
        <form action="/response.htm"> 
-           <fieldset>
+       
               <legend>Create an Account and Send a Message!</legend> 
               <label for="email">E-Mail:</label> 
               <input type="email" name="email" id="email" required placeholder="Email" autofocus required><br> 
@@ -88,30 +89,7 @@
                Message:<br>
                <textarea id="message" required minlength="50" maxlength="200" placeholder= "Message required: Please type a message between 50 and 200 characters." required ></textarea><br>
             </fieldset>
-            <fieldset>
-             <div class="form-group options">
-             Specify 1 or more types of inquiry:<br>
-              <div class="col-md-6">
-              <br>
-               <input type="checkbox" name="type" value="sales" required /> Sales<br>
-               <input type="checkbox" name="type" value="service" required /> Service<br>
-               <input type="checkbox" name="type" value="rentals" required /> Rentals
-        <!-- Java Checkbox helper, because checkboxes dont work in groups like radio buttons, in order to ensure that at least one is checked, you must do something extra :) -->
-                  <script>src="text/javascript">
-                $(function(){
-                    var requiredCheckboxes = $('.options :checkbox[required]');
-                    requiredCheckboxes.change(function(){
-                        if(requiredCheckboxes.is(':checked')) {
-                            requiredCheckboxes.removeAttr('required');
-                        } else {
-                            requiredCheckboxes.attr('required', 'required');
-                        }
-                        });
-                });  
-                </script>
-              </div>
-             </div>
-            </fieldset>
+            
             <fieldset>
         <!-- Radio bottons will require as a group and must check one -->
             <div class="form-group options">
@@ -130,12 +108,12 @@
                <input type="reset" id="reset" value="Reset"><br>
                
                
-           </fieldset> 
+    
             
           
         </form>
 
-               
+        </article>    
     </body>
 
 </html>
