@@ -44,7 +44,7 @@ main {
     }
 textarea {
     height: 10em; 
-    width: 75em;
+    width: 97.917%; 
     margin-left: .5em;
     font-family: Arial, Helvetica, sans-serif; 
 } 
@@ -100,7 +100,7 @@ main {
     }
 textarea {
     height: 10em; 
-    width: 45em;
+    width: 97.917%; 
     margin-left: .5em;
     font-family: Arial, Helvetica, sans-serif; 
     }
@@ -163,7 +163,7 @@ aside {
     }
 textarea {
     height: 10em; 
-    width: 35em;
+    width: 97.917%; 
     margin-left: .5em;
     font-family: Arial, Helvetica, sans-serif; 
 } 
@@ -228,7 +228,7 @@ aside {
     }
 textarea {
     height: 10em; 
-    width: 35em;
+    width: 97.917%; 
     margin-left: .5em;
     font-family: Arial, Helvetica, sans-serif; 
 } 
@@ -435,6 +435,7 @@ select {
 input:required, input[required] 
 { 
     border: 3px solid red;
+    width: 43%; 
 } 
 
 input:valid { 
@@ -453,12 +454,18 @@ br {
     width: 10em;
     float: right; 
     text-align: left;
+    font-size: 1.5em;
 } 
 
 radio {
     float: left; 
-    width: 9em;
+    width: 10em;
+    font-size: 1.5em;
 }
+
+col-md-6{
+    font-size: 1.5em;
+    )
 
 /* music controls for later
 
