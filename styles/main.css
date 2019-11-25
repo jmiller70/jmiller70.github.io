@@ -20,9 +20,8 @@ h3 {
     font-size: 1.125em; /* 18 Ã· 16 */ 
     padding: 10px;
     } 
-#mobile_menu { 
-    display: none; 
-    }
+
+    
 article {
     width: 47.917%;      /*  47.917% 480 / 960 * 100 */
     padding: 10px 1.0417%;
@@ -54,7 +53,28 @@ th {
     padding-right: 10px;
 }    
 }
-    
+
+#nav_menu ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between; 
+    list-style-type: none; padding: 1em 0;
+    font-size: 1.7em;
+    text-align: left;
+    background-color: white;
+    } 
+/* Navigation css aligned left */ 
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
+    }
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
 
 /* tablet portrait layout (768px to 959px) */
 
@@ -74,9 +94,7 @@ h3 {
     font-size: 1.125em; /* 18 Ã· 16 */ 
     padding: 10px;
     } 
-#mobile_menu { 
-    display: none; 
-    }
+
 
 article {
     width: 47.917%;          /*  47.917% 480 / 960 * 100 */
@@ -111,16 +129,63 @@ th {
 }
 }
 
+#nav_menu ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between; 
+    list-style-type: none; padding: .5em 0;
+    font-size: 1.7em;
+    text-align: left;
+    background-color: white;
+    } 
+/* Navigation css aligned left */ 
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
+    }
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
+
 /* mobile landscape layout (480px to 767px) */ 
 
 @media only screen and (max-width: 767px) { 
-#mobile_menu { 
+
+    
+/* Navigation css */ 
+#nav_menu { 
     display: block; 
     }
-#nav_menu { 
-    display: none; 
+
+#nav_menu ul {
+
+    flex-basis: 100%;
+    width: 100%;
+    padding: 10px 1.0417%;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-between; 
+    list-style-type: none; padding: 1em 0;
+    font-size: 2.7em;
+    text-align: right;
+    background-color: white;
+    } 
+
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
     }
-    
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
 header h2 { 
     font-size: 1.375em; 
     }       /* 22 Ã· 16 */ 
@@ -178,12 +243,36 @@ th {
 
 @media only screen and (max-width: 479px) { 
 
-#mobile_menu { 
-    display: block; 
-    }
+
+    
+/* Navigation css aligned left */ 
 #nav_menu { 
-    display: none; 
+
     }
+    #nav_menu ul {
+    display: inline-block;
+    flex-basis: 100%;
+    /*flex-direction: column; */
+    align-items: right;
+    justify-content: space-between; 
+    list-style-type: none; padding: 1em 0;
+    font-size: 2.7em;
+    text-align: right;
+    background-color: white;
+    } 
+
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
+    }
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
+    
 header h2 { 
     font-size: 1.375em; 
     }   /* 22 Ã· 16 */ 
@@ -239,7 +328,39 @@ th {
 }
 }
 
+@media only screen and (max-width: 248px) {
+    
+    #nav_menu { 
 
+    }
+    #nav_menu ul {
+    display: inline-block;
+    flex-basis: 100%;
+    /*flex-direction: column; */
+    align-items: right;
+    justify-content: space-between; 
+    list-style-type: none; padding: 1em 0;
+    font-size: 2em;
+    text-align: right;
+    background-color: white;
+    } 
+
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
+    }
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
+    
+    
+    
+    
+}
 /* the styles for the elements */ 
 body {
     
@@ -292,30 +413,7 @@ li {
    } 
 
 
-/* Navigation css aligned left */ 
-#nav_menu ul {
-    display: flex;
-    flex-basis: 100%;
-    /*flex-direction: column; */
-     /* align-items: center; */
-    justify-content: space-between; 
-    list-style-type: none; padding: 1em 0;
-    font-size: 1.9em;
-    text-align: left;
-    background-color: white;
-    } 
 
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #363A3D; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
 
 /* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
 
@@ -467,17 +565,7 @@ col-md-6{
     font-size: 1.5em;
     )
 
-/* music controls for later
 
-{
-  display:none;
-}
-
-audio, embed {
-  position: absolute;
-  z-index: -9999;
-}
-*/
 
 
 
