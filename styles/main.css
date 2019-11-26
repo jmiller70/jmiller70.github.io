@@ -382,7 +382,7 @@ header {
     
     float: none;
     width: 70%;
-    min-width: 360px;
+    min-width: 350px;
     max-width: 500px;
     justify-content: space-between; 
 	margin:  0 auto;
@@ -395,7 +395,7 @@ header {
 	
     float: none;
     width: 70%;
-    min-width: 360px;
+    min-width: 350px;
     max-width: 500px;
     position: absolute;	
 	overflow: hidden;
