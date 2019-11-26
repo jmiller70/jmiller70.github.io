@@ -379,29 +379,33 @@ header {
     }
 
 .logo {
-    width: 100%;
-    min-width: 300px;
-    max-width: 1024px;
-    position: relative;	
+    
+    float: none;
+    width: 70%;
+    min-width: 360px;
+    max-width: 500px;
+    justify-content: space-between; 
 	margin:  0 auto;
-	max-width: 630px;
+	max-width: 500px;
     height: 350px;
+    
 }
 
 .logo img {
 	
-  width: 100%;
-    min-width: 300px;
-    max-width: 1024px;
+    float: none;
+    width: 70%;
+    min-width: 360px;
+    max-width: 500px;
     position: absolute;	
 	overflow: hidden;
     border: 2px solid #363A3D;
- 
+  
     -moz-border-radius: 1000px;
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
-	max-width: 1024px;
+	max-width: 500px;
 	height: 350px;
 }
 
