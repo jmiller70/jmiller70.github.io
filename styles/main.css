@@ -387,7 +387,7 @@ header {
     justify-content: space-between; 
 	margin:  0 auto;
 	max-width: 500px;
-    height: 350px;
+    height: 284px;
     
 }
 
@@ -405,8 +405,8 @@ header {
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
-	max-width: 500px;
-	height: 350px;
+	max-width: 600px;
+	height: 284px;
 }
 
 
