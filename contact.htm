@@ -13,10 +13,10 @@
     </head>
     <body>
       
-            <figure class="cute">
-            <img  class="cute" src="images/h4.png"/>
-            <img class="cuter" src="images/h3.png"/>
+            <figure class="logo">
+            <img class="logo"  src="images/h4.png" />
             </figure> 
+           
             
         <header>
                </header> 
@@ -32,15 +32,14 @@
             </ul> 
         </nav>
         <article>
-        <p class ="first">Please use the following form to send us a message if you would like to inquire about sales, service, or rentals. Once submitted, you will recieve confirmation that your account is ready to use.</p>
+        <p class ="first">Please use the following form to send us a message if you would like to inquire about visiting our farm or buying sweet potatoes.</p>
   <!-- Submit goes to process page:  <form action="/response.htm">  for now -->  
        <form action="/response.htm"> 
        
-              <legend>Create an Account and Send a Message!</legend> 
+              <legend>Send a Message!</legend> 
               <label for="email">E-Mail:</label> 
               <input type="email" name="email" id="email" required placeholder="Email" autofocus required><br> 
-              <label for="password">Create Password:</label> 
-              <input type="password" name="password" id="password" required placeholder="At least 6 letters or numbers" pattern="[a-zA-Z0-9]{6,}" title="Must be at least 6 alphanumeric characters"><br>  
+              
                <label for="first_name">Full Name:</label> 
                <input type="text" name="first_name" id="first_name" required minlength="15" maxlength="25" placeholder="Full Name"><br>
                
@@ -83,18 +82,7 @@
                <textarea id="message" required minlength="50" maxlength="200" placeholder= "Message required: Please type a message between 50 and 200 characters." required ></textarea><br>
             </fieldset>
             
-            <fieldset>
-        <!-- Radio bottons will require as a group and must check one -->
-            <div class="form-group options">
-            Bike Type:<br>
-            <div class="col-md-6">
-                <br>
-               <input type="radio" name="type" value="mountain" required />MTB<br>
-               <input type="radio" name="type" value="road" />Road<br> 
-               <input type="radio" name="type" value="both"  />Both
-             </div>
-            </div>
-            </fieldset>
+          
         <!-- Submit goes to process page:  <form action="/response.htm">  for now -->  
                <legend>Submit Your Message</legend> <br>
                <input type="submit" id="submit" value="Send"><br>
