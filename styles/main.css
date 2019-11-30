@@ -470,11 +470,12 @@ figcaption {
 .cute {
     width: 100%;
     min-width: 300px;
-    max-width: 1024px;
+    max-width: 1624px;
     position: relative;	
 	margin:  0 auto;
 	max-width: 630px;
     height: 350px;
+
 }
 
 
@@ -496,6 +497,7 @@ figcaption {
     /* Sets the width and height for the images*/
 	max-width: 1024px;
 	height: 350px;
+    
 }
 
 /*  fading effect. */
@@ -521,7 +523,7 @@ table {
 
 fieldset {
     
-   
+   color: white; 
     margin-top: 1em; 
     margin-bottom: 1em; 
     padding-top: .5em;
