@@ -363,7 +363,7 @@ th {
 
 label {
     float: left; 
-    width: 12em;
+    width: 15em;
     text-align: right; 
 }
 
@@ -379,7 +379,12 @@ select {
     margin-left: .5em; 
     margin-bottom: .5em;
 }  
-    
+  textarea {
+    height: 10em; 
+    width: 97.917%; 
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    }  
     
 }
 /* the styles for the elements */ 
@@ -510,8 +515,6 @@ figcaption {
     position: absolute;	
 	overflow: hidden;
     border: 3px solid #363A3D;
-    border-radius: 300px;
-    -moz-border-radius: 300px;
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
