@@ -468,14 +468,14 @@ figcaption {
 
 
 .cute {
-    width: 100%;
+    width: 99%;
     min-width: 300px;
-    max-width: 1624px;
+    max-width: 1024px;
     position: relative;	
-	margin:  0 auto;
+	margin:  -0 auto;
 	max-width: 630px;
     height: 350px;
-
+   
 }
 
 
@@ -484,7 +484,7 @@ figcaption {
 /* burned in */
 .cute img {
     
-    width: 100%;
+    width: 99%;
     min-width: 300px;
     max-width: 1024px;
     position: absolute;	
@@ -523,7 +523,7 @@ table {
 
 fieldset {
     
-   color: white; 
+    
     margin-top: 1em; 
     margin-bottom: 1em; 
     padding-top: .5em;
@@ -593,8 +593,7 @@ radio {
 col-md-6{
     font-size: 1.5em;
     )
-
-
+}
 
 
 
