@@ -497,7 +497,7 @@ figcaption {
     position: relative;	
 	margin:  -0 auto;
 	max-width: 435px;
-    height: 284px;
+    height: 264px;
    
 }
 
@@ -517,7 +517,7 @@ figcaption {
 	opacity: 1;
     /* Sets the width and height for the images*/
 	height: 435px;
-    max-height: 284px;
+    max-height: 264px;
     
 }
 
