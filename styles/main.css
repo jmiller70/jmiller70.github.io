@@ -428,7 +428,7 @@ header {
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
-    height: 135px;
+    min-height: 135px;
     max-height: 284px;
 }
 
@@ -492,12 +492,12 @@ figcaption {
 
 .cute {
     width: 99%;
-    min-width: 300px;
-    max-width: 1024px;
+    min-width: 200px;
+    max-width: 370px;
     position: relative;	
 	margin:  -0 auto;
-	max-width: 630px;
-    height: 350px;
+	max-width: 435px;
+    height: 284px;
    
 }
 
@@ -508,18 +508,16 @@ figcaption {
 .cute img {
     
     width: 99%;
-    min-width: 300px;
-    max-width: 1024px;
+    min-width: 200px;
+    max-width: 370px;
     position: absolute;	
 	overflow: hidden;
     border: 3px solid #363A3D;
-
-    
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
-	max-width: 1024px;
-	height: 350px;
+	height: 435px;
+    max-height: 284px;
     
 }
 
