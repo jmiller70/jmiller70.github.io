@@ -23,18 +23,13 @@ h3 {
 
     
 article {
-    width: 47.917%;      /*  47.917% 480 / 960 * 100 */
+    width: 97.917%;      /*  47.917% 480 / 960 * 100 */
     padding: 10px 1.0417%;
     background-color: #ffffff; /* this color is white for column panel */
     float: left; 
     } 
     
-aside {
-    width: 47.917%;          /* 47.917% 480 / 960 * 100*/
-    padding: 10px 1.0417%;
-    background-color: #ffffff; /* this color is white for column panel  */
-    float: right; 
-    }
+
 main { 
     display:flex;
     flex-direction: column;
@@ -109,19 +104,13 @@ h3 {
 
 
 article {
-    width: 47.917%;          /*  47.917% 480 / 960 * 100 */
+    width: 97.917%;          /*  47.917% 480 / 960 * 100 */
     padding: 10px 1.0417%;
     background-color: #ffffff; /* this color is white for column panel */
     float: left; 
     }
     
-aside {
-   
-    width: 47.917%;          /* 47.917% 480 / 960 * 100*/
-    padding: 10px 1.0417%;
-    background-color: #ffffff; /* this color is white for column panel  */
-    float: right; 
-    }
+
 main { 
     display:flex;
     flex-direction: column;
@@ -220,13 +209,11 @@ h1 {
     font-size: 2.5em; /* 28 Ã· 16 */ 
     padding: 10px;
     }
-article h2, aside h2
+article h2
         { 
     font-size: 1.5em; 
     }             /* base font size */ 
-aside li { 
-    font-size: .875em; 
-    }     /* 14 Ã· 16 */
+     /* 14 Ã· 16 */
 background-color: silver;
 header {
     display: flex;
@@ -243,11 +230,7 @@ article {
     order: 1;
     width: 97.917%;       /* 940 / 960 * 100 */
     } 
-aside { 
-    order: 2;
-    width: 97.917%;        /* 940 / 960 * 100 */
-      
-    }
+
 textarea {
     height: 10em; 
     width: 97.917%; 
