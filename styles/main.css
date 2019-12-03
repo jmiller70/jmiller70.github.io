@@ -65,12 +65,15 @@ input:required, input[required]
 { 
     border: 3px solid red;
     width: 18em; 
+    height: 1.7em;
 } 
 select { 
     float: left; 
     width: 18em;
     margin-left: .5em; 
     margin-bottom: .5em;
+    height: 1.7em;
+    
 } 
     
 }
@@ -134,11 +137,13 @@ th {
 input:required, input[required] 
 { 
     border: 3px solid red;
-    width: 18em; 
+    width: 18em;
+    height: 1.5em;
 } 
 select { 
     float: left; 
     width: 18em;
+    height: 1.5em;
     margin-left: .5em; 
     margin-bottom: .5em;
 }  
@@ -209,13 +214,15 @@ th {
 input:required, input[required] 
 { 
     border: 3px solid red;
-    width: 14em; 
+    width: 14em;
+    height: 1.5em;
 } 
 select { 
     float: left; 
     width: 15em;
     margin-left: .5em; 
     margin-bottom: .5em;
+     height: 1.7em;
 }
 }
     
@@ -296,7 +303,8 @@ th {
 input:required, input[required] 
 { 
     border: 3px solid red;
-    width: 16em;
+    width: 17em;
+    height: 1.5em;
     
 } 
 select { 
@@ -311,7 +319,7 @@ label {
     text-align: left; 
 }
 }
-@media only screen and (max-width: 248px) {
+@media only screen and (max-width: 320px) {
     
    
 
@@ -343,7 +351,8 @@ textarea {
 input:required, input[required] 
 { 
     border: 3px solid red;
-    width: 75%; 
+    width: 16em;
+
 } 
 select { 
     float: left; 
@@ -536,11 +545,12 @@ legend {
     font-weight: bold; 
     font-size: 1.5em; 
     margin-bottom: .5em;
-  
+ 
 }
 
 label, input, select { 
     font-size: 99%;
+   
 } 
 
 label {
@@ -552,6 +562,7 @@ label {
 input  { 
     float: left; 
     width: 15em;
+    height: 
     margin-left: .5em; 
     margin-bottom: .5em;
 }
@@ -568,14 +579,32 @@ br {
     clear: both; 
 }
 
-
-
-radio {
-    float: left; 
-    width: 10em;
-    font-size: 1.5em;
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
 }
-
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+ 
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
 
 }
 
