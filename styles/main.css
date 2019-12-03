@@ -48,7 +48,7 @@ th {
     padding-right: 10px;
 }    
 
-
+/* Navigation css */ 
 #nav_menu ul {
     display: flex;
     flex-basis: 100%;
@@ -58,18 +58,9 @@ th {
     text-align: left;
     background-color: white;
     } 
-/* Navigation css aligned left */ 
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #ffffff; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
+
+
+    
 input:required, input[required] 
 { 
     border: 3px solid red;
@@ -453,7 +444,10 @@ li {
     color: #363A3D; 
     }
 
-
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
+    
 
 /* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
 
