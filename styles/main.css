@@ -59,17 +59,7 @@ th {
     background-color: white;
     } 
 /* Navigation css aligned left */ 
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #363A3D; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
+
 input:required, input[required] 
 { 
     border: 3px solid red;
@@ -135,22 +125,11 @@ th {
     flex-basis: 100%;
     justify-content: space-between; 
     list-style-type: none; padding: .5em 0;
-    font-size: 1.7em;
+    font-size: 1.3em;
     text-align: left;
     background-color: white;
     } 
-/* Navigation css aligned left */ 
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #363A3D; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
+
 input:required, input[required] 
 { 
     border: 3px solid red;
@@ -168,35 +147,19 @@ select {
 
     
 /* Navigation css */ 
-#nav_menu { 
-    display: block; 
-    }
+
 
 #nav_menu ul {
-
+    display: flex;
     flex-basis: 100%;
-    width: 100%;
-    padding: 10px 1.0417%;
-    flex-direction: column;
-    align-items: right;
     justify-content: space-between; 
-    list-style-type: none; padding: 1em 0;
-    font-size: 2.7em;
-    text-align: right;
+    list-style-type: none; padding: .5em 0;
+    font-size: 1em;
+    text-align: left;
     background-color: white;
     } 
 
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #363A3D; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
+
 header h2 { 
     font-size: 1.375em; 
     }       /* 22 Ã· 16 */ 
@@ -259,36 +222,22 @@ select {
 
 @media only screen and (max-width: 479px) { 
 
+#nav_menu ul {
 
-    
-/* Navigation css aligned left */ 
-#nav_menu { 
-
-    }
-    #nav_menu ul {
-    display: inline-block;
     flex-basis: 100%;
-    /*flex-direction: column; */
+    width: 100%;
+    padding: 10px 1.0417%;
+    flex-direction: column;
     align-items: right;
     justify-content: space-between; 
-    list-style-type: none; padding: 1em 0;
-    font-size: 2.7em;
+    list-style-type: none; padding: .1em 0;
+    font-size: .9em;
     text-align: right;
     background-color: white;
     } 
-
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #363A3D; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
     
+
+
 header h2 { 
     font-size: 1.375em; 
     }   /* 22 Ã· 16 */ 
@@ -363,36 +312,8 @@ label {
 }
 @media only screen and (max-width: 248px) {
     
-    #nav_menu { 
+   
 
-    }
-    #nav_menu ul {
-    display: inline-block;
-    flex-basis: 100%;
-    /*flex-direction: column; */
-    align-items: right;
-    justify-content: space-between; 
-    list-style-type: none; padding: 1em 0;
-    font-size: 2em;
-    text-align: right;
-    background-color: white;
-    } 
-
-#nav_menu ul li { 
-    display: inline; 
-    padding: 0 1em; 
-    } 
-#nav_menu ul li a { 
-    font-weight: bold; 
-    color: #363A3D; 
-    }
-#nav_menu ul li a.current { 
-    text-decoration: none; 
-    }
-    
-  label, input, select { 
-    font-size: 90%;
-} 
 
 label {
     float: left; 
@@ -438,7 +359,7 @@ label {
 /* the styles for the elements */ 
 body {
     
-    font-size: 1em;     /* 16 Ã· 16  */
+    font-size: 1em;     /* 16 x 16  */
     width: 90%;          /* changed from 725px;*/
     max-width 1024px;
     background-color: #C03D09; /* this color is gray */
@@ -513,6 +434,14 @@ li {
    
    } 
 
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
+    }
 
 
 
@@ -557,10 +486,11 @@ figcaption {
     
     width: 99%;
     min-width: 200px;
-    max-width: 370px;
+    max-width: 350px;
     position: absolute;	
 	overflow: hidden;
     border: 3px solid #363A3D;
+    border-radius: 90px;
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
@@ -643,9 +573,7 @@ radio {
     font-size: 1.5em;
 }
 
-col-md-6{
-    font-size: 1.5em;
-    )
+
 }
 
 
