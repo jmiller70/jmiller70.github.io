@@ -59,7 +59,17 @@ th {
     background-color: white;
     } 
 /* Navigation css aligned left */ 
-
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #ffffff; 
+    }
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
 input:required, input[required] 
 { 
     border: 3px solid red;
