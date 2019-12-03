@@ -362,7 +362,6 @@ body {
     
     font-size: 1em;     /* 16 x 16  */
     width: 90%;          /* changed from 725px;*/
-    max-width 1024px;
     background-color: #C03D09; /* this color is gray */
     margin: 10px auto;
 
