@@ -12,8 +12,14 @@ Southern Illinois University  Developed: 11-10-2019  Tested: 11-29-2019
         <link rel="shortcut icon" href="images/millicon2.ico">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/slicknav.css"> 
-        <link rel="stylesheet" media="screen">
-        <link rel="stylesheet" media="screen">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+
       
          <meta name="description" content="Family Farm"> <meta name="keywords" content="Beauregards, Bayou Belle, organic, strains, varieties">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +39,7 @@ Southern Illinois University  Developed: 11-10-2019  Tested: 11-29-2019
         </header> 
        
          <!-- Navigation Menu -->
-     
+        <nav id="mobile_menu"></nav> 
         <nav id="nav_menu"> 
             <ul>
                 <li><a href="index.htm" class="current">Home</a></li> 
