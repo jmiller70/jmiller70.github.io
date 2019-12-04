@@ -49,7 +49,7 @@
     content: " ";
     display: table; }
   .slicknav_menu:after {
-    content: "right ";
+    content: " ";
     display: table;
     clear: both; }
 
