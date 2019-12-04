@@ -20,7 +20,7 @@
   .slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
-    float: right; }
+    float: left; }
   .slicknav_menu .slicknav_icon {
     float: left;
     width: 1.125em;

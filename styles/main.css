@@ -160,9 +160,10 @@ select {
     
 /* Navigation css */ 
 
-#mobile_menu { 
-    display: block; 
-    }
+ #mobile_menu { 
+        display: block; 
+        padding-bottom: 1px;
+        text-align: right; }
 #nav_menu { 
     display: none; 
     }
@@ -230,9 +231,7 @@ select {
 /* mobile portrait layout (479px or less) */ 
 
 @media only screen and (max-width: 479px) { 
-#mobile_menu { 
-    display: block; 
-    }
+ 
 #nav_menu { 
     display: none; 
     }
@@ -257,7 +256,8 @@ aside li {
     font-size: .875em; 
     }     /* 14 Ã· 16 */ 
 background-color: silver;
-header {
+
+    header {
     display:flex;
     }
     /* Switch to one column */ 
