@@ -12,17 +12,17 @@
     }
     
 h1 {
-    font-size: 1.75em; /* 28 Ã· 16 */ 
+    font-size: 1.75em; /* 28 * 16 */ 
     padding: 10px;
     }
 
 h2 {
-    font-size: 1.5em; /* 24 Ã· 16 */ 
+    font-size: 1.5em; /* 24 * 16 */ 
     padding: 10px;
     } 
 
 h3 {
-    font-size: 1.125em; /* 18 Ã· 16 */ 
+    font-size: 1.125em; /* 18 * 16 */ 
     padding: 10px;
     } 
 
@@ -87,17 +87,17 @@ input:required, input[required]
     }
     
 h1 {
-    font-size: 1.75em; /* 28 Ã· 16 */ 
+    font-size: 1.75em; /* 28 * 16 */ 
     padding: 10px;
     }
 
 h2 {
-    font-size: 1.5em; /* 24 Ã· 16 */ 
+    font-size: 1.5em; /* 24 * 16 */ 
     padding: 10px;
     } 
 
 h3 {
-    font-size: 1.125em; /* 18 Ã· 16 */ 
+    font-size: 1.125em; /* 18 * 16 */ 
     padding: 10px;
     } 
 
@@ -168,9 +168,9 @@ header h3 {
     font-size: .8125em; 
     }   /* 13 Ã· 16 */ 
 p { font-size: .875em; 
-    }            /* 14 · 16 */ 
+    }            /* 14 * 16 */ 
 h1 {
-    font-size: 2.5em; /* 28 · 16 */ 
+    font-size: 2.5em; /* 28 * 16 */ 
     padding: 10px;
     }
 article h2
@@ -236,9 +236,9 @@ header h3 {
     font-size: .8125em; 
     }   /* 13 Ã· 16 */ 
 p { font-size: .875em; 
-    }            /* 14 Ã· 16 */ 
+    }            /* 14 * 16 */ 
 h1 {
-    font-size: 2.5em; /* 28 Ã· 16 */ 
+    font-size: 2.5em; /* 28 * 16 */ 
     padding: 10px;
     }
 article h2, aside h2 
@@ -247,7 +247,7 @@ article h2, aside h2
     }             /* base font size */ 
 aside li { 
     font-size: .875em; 
-    }     /* 14 Ã· 16 */ 
+    }     /* 14 * 16 */ 
 
 
     header {
@@ -360,7 +360,7 @@ label {
 /* the styles for the elements */ 
 body {
     
-    font-size: 1em;     /* 16 x 16  */
+    font-size: 1em;     /* 16 * 16  */
     width: 90%;          /* changed from 725px;*/
     background-color: #C03D09; /* this color is gray */
     margin: 10px auto;
@@ -372,7 +372,7 @@ header {
     clear: both; 
     font-size: 2em;
     }
-
+/* this is for the MF farms logo Image */
 .logo {
     
     float: none;
@@ -383,7 +383,7 @@ header {
     min-height: 135px;
     max-height: 284px;
 }
-
+/* this is also for the MF farms logo Image */
 .logo img {
 	
     float: none;
@@ -403,7 +403,7 @@ header {
 
 
 p { 
-    font-size: 1.5em; /* 18 Ã· 16 */ 
+    font-size: 1.5em; /* 18 * 16 */ 
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'IndieFlowerRegular';
@@ -416,7 +416,7 @@ blockquote {
    
     }
 footer { 
-    font-size: .75em; /* 12 Ã· 16 */ 
+    font-size: .75em; /* 12 * 16 */ 
     width: 97.917%;            /* 940 / 960 * 100 */
     padding: 10px 1.0417%;
     clear: both; 
@@ -468,7 +468,7 @@ figcaption {
 
 
 
-
+/* class for image with rounded corners and hover over trqansition */
 .cute {
     width: 99%;
     min-width: 200px;
@@ -515,7 +515,7 @@ figcaption {
 }
 
 
-
+/* Web Table */
 table {
     margin-top: 1em; 
     margin-bottom: 1em; 
@@ -538,6 +538,8 @@ legend {
  
 }
 
+
+/* Form Field Size */
 label, input, select { 
     font-size: 99%;
    
@@ -568,11 +570,7 @@ br {
     clear: both; 
 }
 
-#buttons input { 
-    width: 10em;
-    float: right; 
-    text-align: left;
-} 
+
 
 
 
