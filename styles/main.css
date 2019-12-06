@@ -5,6 +5,8 @@
 /* tablet landscape and desktop layout (960px or more) */ 
 
 @media only screen and (max-width: 4000px) { 
+
+    /* Block Mobile Navigation css */ 
 #mobile_menu { 
     display: none; 
     }
@@ -32,19 +34,20 @@ article {
     float: left; 
     } 
     
-
 main { 
     display:flex;
     flex-direction: column;
     padding: 10px 1.0417%;
     background-color: #ffffff;
     }
+    
 textarea {
     height: 10em; 
     width: 97.917%; 
     margin-left: .5em;
     font-family: Arial, Helvetica, sans-serif; 
 } 
+    
 th {
     font-size: 1.6em;
     padding-left: 10px 1.0417%;
@@ -63,26 +66,22 @@ th {
     } 
 
 
-    
+/* Main Form input */
 input:required, input[required] 
 { 
     border: 3px solid red;
     width: 18em; 
     height: 1.7em;
 } 
-select { 
-    float: left; 
-    width: 18em;
-    margin-left: .5em; 
-    margin-bottom: .5em;
-    height: 1.7em;
     
-} 
-    
+
 }
+
 /* tablet portrait layout (741px to 959px) */
 
 @media only screen and (max-width: 959px) {
+
+/* Navigation css */ 
 #mobile_menu { 
     display: none; 
     }
@@ -139,20 +138,14 @@ th {
     text-align: left;
     background-color: white;
     } 
-
+/* Main Form input */
 input:required, input[required] 
 { 
     border: 3px solid red;
     width: 18em;
     height: 1.5em;
 } 
-select { 
-    float: left; 
-    width: 18em;
-    height: 1.5em;
-    margin-left: .5em; 
-    margin-bottom: .5em;
-}  
+
 /* mobile landscape layout (480px to 740px) */ 
 }
 @media only screen and (max-width: 740px) { 
