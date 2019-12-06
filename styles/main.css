@@ -50,7 +50,7 @@ textarea {
     
 th {
     font-size: 1.6em;
-    padding-left: 10px 1.0417%;
+    padding-left: 10px;
     padding-right: 10px;
 }    
 
@@ -124,7 +124,7 @@ textarea {
     }
 th {
     font-size: 1.4em;
-    padding-left: 10px 1.0417%;
+    padding-left: 10px;
     padding-right: 10px;
 }
 
@@ -163,22 +163,22 @@ input:required, input[required]
 
 header h2 { 
     font-size: 1.375em; 
-    }       /* 22 Ã· 16 */ 
+    }       /* 22 · 16 */ 
 header h3 { 
     font-size: .8125em; 
     }   /* 13 Ã· 16 */ 
 p { font-size: .875em; 
-    }            /* 14 Ã· 16 */ 
+    }            /* 14 · 16 */ 
 h1 {
-    font-size: 2.5em; /* 28 Ã· 16 */ 
+    font-size: 2.5em; /* 28 · 16 */ 
     padding: 10px;
     }
 article h2
         { 
     font-size: 1.5em; 
     }             /* base font size */ 
-     /* 14 Ã· 16 */
-background-color: silver;
+     
+    
 header {
     display: flex;
     }
@@ -203,7 +203,7 @@ textarea {
 } 
 th {
     font-size: 1em;
-    padding-left: 10px 1.0417%;
+    padding-left: 10px;
     padding-right: 10px;
 }    
 input:required, input[required] 
@@ -248,7 +248,7 @@ article h2, aside h2
 aside li { 
     font-size: .875em; 
     }     /* 14 Ã· 16 */ 
-background-color: silver;
+
 
     header {
     display:flex;
@@ -280,7 +280,7 @@ textarea {
 } 
 th {
     font-size: 1em;
-    padding-left: 10px 1.0417%;
+    padding-left: 10px;
     padding-right: 10px;
 }
 
@@ -393,7 +393,6 @@ header {
     position: absolute;	
 	overflow: hidden;
     border: 2px solid #363A3D;
-    -moz-border-radius: 1000px;
     margin: 0;
 	opacity: 1;
     /* Sets the width and height for the images*/
@@ -405,7 +404,7 @@ header {
 
 p { 
     font-size: 1.5em; /* 18 Ã· 16 */ 
-    padding-left: 10px 1.0417%;
+    padding-left: 10px;
     padding-right: 10px;
     font-family: 'IndieFlowerRegular';
    
@@ -414,7 +413,7 @@ p {
 blockquote {
     width: 47.917%;          /* 480 / 960 * 100 */
     padding: 10px 1.0417%;
-    float: center; 
+   
     }
 footer { 
     font-size: .75em; /* 12 Ã· 16 */ 
@@ -553,7 +552,6 @@ label {
 input  { 
     float: left; 
     width: 15em;
-    height: 
     margin-left: .5em; 
     margin-bottom: .5em;
 }
@@ -576,7 +574,7 @@ br {
     text-align: left;
 } 
 
-}
+
 
 
 
