@@ -1,0 +1,579 @@
+/* @author jeff miller, Miller Farms CSS Style Page, Southern Illinois University  Developed: 11-10-2019  Tested: 12-06-2019  */ 
+
+
+
+/* tablet landscape and desktop layout (960px or more) */ 
+
+@media only screen and (max-width: 4000px) { 
+
+    /* Block Mobile Navigation css */ 
+#mobile_menu { 
+    display: none; 
+    }
+    
+h1 {
+    font-size: 1.75em; /* 28 * 16 */ 
+    padding: 10px;
+    }
+
+h2 {
+    font-size: 1.5em; /* 24 * 16 */ 
+    padding: 10px;
+    } 
+
+h3 {
+    font-size: 1.125em; /* 18 * 16 */ 
+    padding: 10px;
+    } 
+
+    
+article {
+    width: 97.917%;      /*  47.917% 480 / 960 * 100 */
+    padding: 10px 1.0417%;
+    background-color: #ffffff; /* this color is white for column panel */
+    float: left; 
+    } 
+    
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    }
+    
+textarea {
+    height: 10em; 
+    width: 97.917%; 
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+    
+th {
+    font-size: 1.6em;
+    padding-left: 10px;
+    padding-right: 10px;
+}    
+
+/* Navigation css */ 
+#nav_menu ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between; 
+    list-style-type: none; padding: 1em 0;
+    font-size: 1.7em;
+    text-align: left;
+    background-color: white;
+    } 
+
+
+/* Main Form input */
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+    width: 18em; 
+    height: 1.7em;
+} 
+    
+
+}
+
+/* tablet portrait layout (741px to 959px) */
+
+@media only screen and (max-width: 959px) {
+
+/* Navigation css */ 
+#mobile_menu { 
+    display: none; 
+    }
+    
+h1 {
+    font-size: 1.75em; /* 28 * 16 */ 
+    padding: 10px;
+    }
+
+h2 {
+    font-size: 1.5em; /* 24 * 16 */ 
+    padding: 10px;
+    } 
+
+h3 {
+    font-size: 1.125em; /* 18 * 16 */ 
+    padding: 10px;
+    } 
+
+
+article {
+    width: 97.917%;          /*  47.917% 480 / 960 * 100 */
+    padding: 10px 1.0417%;
+    background-color: #ffffff; /* this color is white for column panel */
+    float: left; 
+    }
+    
+
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    }
+textarea {
+    height: 10em; 
+    width: 97.917%; 
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+th {
+    font-size: 1.4em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#nav_menu ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between; 
+    list-style-type: none; padding: .5em 0;
+    font-size: 1.3em;
+    text-align: left;
+    background-color: white;
+    } 
+/* Main Form input */
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+    width: 18em;
+    height: 1.5em;
+} 
+
+/* mobile landscape layout (480px to 740px) */ 
+}
+@media only screen and (max-width: 740px) { 
+
+    
+/* Navigation css */ 
+
+ #mobile_menu { 
+        display: block; 
+        padding-bottom: 1px;
+        text-align: right; }
+#nav_menu { 
+    display: none; 
+    }
+
+header h2 { 
+    font-size: 1.375em; 
+    }       /* 22 · 16 */ 
+header h3 { 
+    font-size: .8125em; 
+    }   /* 13 Ã· 16 */ 
+p { font-size: .875em; 
+    }            /* 14 * 16 */ 
+h1 {
+    font-size: 2.5em; /* 28 * 16 */ 
+    padding: 10px;
+    }
+article h2
+        { 
+    font-size: 1.5em; 
+    }             /* base font size */ 
+     
+    
+header {
+    display: flex;
+    }
+     /* Switch to one column */ 
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    } 
+    
+article { 
+    order: 1;
+    width: 97.917%;       /* 940 / 960 * 100 */
+    } 
+
+textarea {
+    height: 10em; 
+    width: 97.917%; 
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+th {
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}    
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+    width: 14em;
+    height: 1.5em;
+} 
+select { 
+    float: left; 
+    width: 15em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+     height: 1.7em;
+}
+}
+    
+/* mobile portrait layout (479px or less) */ 
+
+@media only screen and (max-width: 479px) { 
+ 
+#nav_menu { 
+    display: none; 
+    }
+
+header h2 { 
+    font-size: 1.375em; 
+    }   /* 22 Ã· 16 */ 
+header h3 { 
+    font-size: .8125em; 
+    }   /* 13 Ã· 16 */ 
+p { font-size: .875em; 
+    }            /* 14 * 16 */ 
+h1 {
+    font-size: 2.5em; /* 28 * 16 */ 
+    padding: 10px;
+    }
+article h2, aside h2 
+        { 
+    font-size: 1.5em; 
+    }             /* base font size */ 
+aside li { 
+    font-size: .875em; 
+    }     /* 14 * 16 */ 
+
+
+    header {
+    display:flex;
+    }
+    /* Switch to one column */ 
+main {  
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    } 
+    
+article
+    { 
+    order: 1;
+    width: 97.917%;      /* 940 / 960 * 100 */
+      
+    } 
+aside { 
+    order: 2;
+    width: 97.917%;       /* 940 / 960 * 100 */
+       
+    }
+textarea {
+    height: 10em; 
+    width: 97.917%; 
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+th {
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+    width: 17em;
+    height: 1.5em;
+    
+} 
+select { 
+    float: left; 
+    width: 19em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}  
+label {
+    float: left; 
+    width: 19em;
+    text-align: left; 
+}
+}
+@media only screen and (max-width: 320px) {
+    
+   
+#mobile_menu { 
+    display: block; 
+    }
+#nav_menu { 
+    display: none; 
+    }
+
+
+
+label {
+    float: left; 
+    width: 29em;
+    text-align: right; 
+}
+
+input  { 
+    float: left; 
+    width: 25em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+select { 
+    float: left; 
+    width: 10em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}  
+textarea {
+    height: 10em; 
+    width: 97.917%; 
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    }  
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+    width: 16em;
+
+} 
+select { 
+    float: left; 
+    width: 19em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+label {
+    float: left; 
+    width: 12em;
+    text-align: left; 
+}
+}
+/* the styles for the elements */ 
+body {
+    
+    font-size: 1em;     /* 16 * 16  */
+    width: 90%;          /* changed from 725px;*/
+    background-color: #C03D09; /* this color is gray */
+    margin: 10px auto;
+
+    } 
+header { 
+    width: 97.917%;          /* 940 / 960 * 100 */
+    padding: 10px 1.0417%;
+    clear: both; 
+    font-size: 2em;
+    }
+/* this is for the MF farms logo Image */
+.logo {
+    
+    float: none;
+    width: 72%;
+    min-width: 200px;
+    max-width: 250px;
+    margin:  0 auto;
+    min-height: 135px;
+    max-height: 284px;
+}
+/* this is also for the MF farms logo Image */
+.logo img {
+	
+    float: none;
+    width: 72%;
+    min-width:  200px;
+    max-width: 250px;
+    position: absolute;	
+	overflow: hidden;
+    border: 2px solid #363A3D;
+    margin: 0;
+	opacity: 1;
+    /* Sets the width and height for the images*/
+    min-height: 135px;
+    max-height: 284px;
+}
+
+
+
+p { 
+    font-size: 1.5em; /* 18 * 16 */ 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'IndieFlowerRegular';
+   
+}
+
+blockquote {
+    width: 47.917%;          /* 480 / 960 * 100 */
+    padding: 10px 1.0417%;
+   
+    }
+footer { 
+    font-size: .75em; /* 12 * 16 */ 
+    width: 97.917%;            /* 940 / 960 * 100 */
+    padding: 10px 1.0417%;
+    clear: both; 
+    
+    }
+    
+ul { 
+    
+    padding-left: 10px; 
+} 
+
+li {
+    padding-left: 10px; /* space between bullet and text */ 
+   
+   } 
+
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #363A3D; 
+    }
+
+#nav_menu ul li a.current { 
+    text-decoration: none; 
+    }
+    
+
+/* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
+
+
+
+figure {
+    float: left;
+    margin-right: 1.5em; 
+}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-top: .25em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+/* class for image with rounded corners and hover over trqansition */
+.cute {
+    width: 99%;
+    min-width: 200px;
+    max-width: 370px;
+    position: relative;	
+	margin:  -0 auto;
+	max-width: 435px;
+    height: 264px;
+   
+}
+
+
+
+/*  hover over and  GRAY touch on banner */
+/* burned in */
+.cute img {
+    
+    width: 99%;
+    min-width: 200px;
+    max-width: 350px;
+    position: absolute;	
+	overflow: hidden;
+    border: 3px solid #363A3D;
+    border-radius: 90px;
+    margin: 0;
+	opacity: 1;
+    /* Sets the width and height for the images*/
+	height: 435px;
+    max-height: 264px;
+    
+}
+
+/*  fading effect. */
+
+.cute .cuter{
+  z-index: 9999;
+  transition: opacity 2s linear;
+  cursor: pointer;
+}
+
+/* burned in effect on 2nd image */
+.cute:hover > .cuter {
+  opacity: 0.1;
+}
+
+
+/* Web Table */
+table {
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    padding-top: .5em;
+}
+
+fieldset {
+    
+    
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    padding-top: .5em;
+} 
+
+legend {
+    color: black; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    margin-bottom: .5em;
+ 
+}
+
+
+/* Form Field Size */
+label, input, select { 
+    font-size: 99%;
+   
+} 
+
+label {
+    float: left; 
+    width: 12em;
+    text-align: right; 
+}
+
+input  { 
+    float: left; 
+    width: 15em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+
+input:valid { 
+    border: 1px solid black; 
+} 
+
+input:invalid { 
+    box-shadow: none; 
+} 
+
+br { 
+    clear: both; 
+}
+
+
+
+
+
+
+
+
