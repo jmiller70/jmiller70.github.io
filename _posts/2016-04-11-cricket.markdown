@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "The cricket"
+date:   2016-04-11 13:11:36
+categories: jekyll update
+---
+Robby and his new cricket .22 rifle he got for xmas, he's kinda proud if you cant tell.
+He enjoys hunting and fishing at the farm.
+  ![Robby]({{ site.url }}/assets/robby2016.jpg)
