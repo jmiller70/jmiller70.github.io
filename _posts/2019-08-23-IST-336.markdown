@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Hello Class"
+date:   2019-08-23 08:47:36
+categories: jekyll update
+---
+
+Hello class. If anyone has any questions about git, just google them and look on stack overflow. Version control will save your life! Thats what my mentor taught me about git!
+
