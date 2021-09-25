@@ -30,6 +30,7 @@ Graduate Information Technology Classes Completed
 <li>CYberintelligence - ITEC 507</li>
 
 <br>
+
 Undergraduate Information Technology Classes Completed
 ---
 <li>Intro to Security - ITEC 216</li>
