@@ -24,7 +24,7 @@ Graduate Information Technology Classes Completed
 ---
 <li>Intro to Security - ITEC 501</li>
 <li>Cloud Security - ITEC 502</li>
-<li>CYber Physical Systems - ITEC 503</li>
+<li>Cyber Physical Systems - ITEC 503</li>
 <li>Metrics - ITEC 505</li>
 <li>Forensics - ITEC 506</li>
 <li>CYberintelligence - ITEC 507</li>
