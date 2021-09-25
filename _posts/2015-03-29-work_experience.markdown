@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 August, 2021 to Present - Assistant Lecturer - School of Information Technology-SIUC, Carbondale, Illinois  
-----
+-----
 <br>
 <li>Instructional Designer - Lead Instructor - Programming with SQL - ITEC 370</li>
 <li>Instructional Designer - Lead Instructor - Database Design & Processing - ITEC 334</li>
@@ -14,7 +14,7 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 </br>
 
 2013-August, 2021 - Assistant Director- Information Technology - University Housing-SIUC, Carbondale, Illinois                         
-----
+-----
 <br>
 <li>Assess future hardware, software, and personnel needs for the IT Department of University Housing</li>
 <li> Communicate with the Director of Housing, Associate Director of Operations, and leadership teams of University Housing to develop and implement IT procedures and initiatives</li>
@@ -31,7 +31,7 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 </br>
 
 2000-2013 - Manager of Technical Support - DxR Development Group, Carbondale, Illinois
-----
+-----
 <br>
 <li>Assess future hardware, software, and personnel needs for all departments of a global software company</li> 
 <li>Communicate with the Vice President of Production, Vice President of New Product Development, and Vice President of Sales on critical hardware/software needs of employees</li>
