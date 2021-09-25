@@ -6,15 +6,15 @@ categories: jekyll update
 ---
 
 August, 2021 to Present - Assistant Lecturer - School of Information Technology-SIUC, Carbondale, Illinois  
------
+--
 <br>
 <li>Instructional Designer - Lead Instructor - Programming with SQL - ITEC 370</li>
 <li>Instructional Designer - Lead Instructor - Database Design & Processing - ITEC 334</li>
 <li>Instructional Designer - Lead Instructor - Web Applications - Instructor - ITEC 236</li>
-</br>
+
 
 2013-August, 2021 - Assistant Director- Information Technology - University Housing-SIUC, Carbondale, Illinois                         
------
+--
 <br>
 <li>Assess future hardware, software, and personnel needs for the IT Department of University Housing</li>
 <li> Communicate with the Director of Housing, Associate Director of Operations, and leadership teams of University Housing to develop and implement IT procedures and initiatives</li>
@@ -28,10 +28,10 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 <li>Maintain PCI compliancy within essential business operations</li> 
 <li>Build and maintain custom-built payment solutions utilizing payment gateways and credit card processors</li>
 <li>Oversee large network of over 200 computers utilized by over 200 employees in University Housing</li>
-</br>
+<br>
 
 2000-2013 - Manager of Technical Support - DxR Development Group, Carbondale, Illinois
------
+--
 <br>
 <li>Assess future hardware, software, and personnel needs for all departments of a global software company</li> 
 <li>Communicate with the Vice President of Production, Vice President of New Product Development, and Vice President of Sales on critical hardware/software needs of employees</li>
@@ -42,4 +42,4 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 <li>Develop migration schemes and strategies for upgrades and new hardware implementation with Administrators, Project Directors, and Customer Support Agents</li>
 <li>Instruct faculty members at over 142 Medical Schools to administer and troubleshoot over 150 problem-based learning case studies to their students</li>
 <li>Demonstrate complex software to University faculty and administrators</li> 
-</br>
+<br>
