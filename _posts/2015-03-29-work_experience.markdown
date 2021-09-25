@@ -4,8 +4,11 @@ title:  "Work Experience"
 date:   2021-09-24 13:11:36
 categories: jekyll update
 ---
-August, 2021 to Present
-<li>Assistant Lecturer - School of Information Technology-SIUC, Carbondale, Illinois  
+August, 2021 to Present - Assistant Lecturer - School of Information Technology-SIUC, Carbondale, Illinois  
+
+<li>370</li>
+<li>334</li>
+<li>236</li>
 
 ---
 2013-August, 2021 - Assistant Director- Information Technology - University Housing-SIUC, Carbondale, Illinois                         
@@ -24,9 +27,8 @@ August, 2021 to Present
 <li>Build and maintain custom-built payment solutions utilizing payment gateways and credit card processors</li>
 <li>Oversee large network of over 200 computers utilized by over 200 employees in University Housing</li>
 
-
-DxR Development Group, Carbondale, Illinois                               2000-2013
-Manager of Technical Support
+---
+2000-2013 - Manager of Technical Support - DxR Development Group, Carbondale, Illinois - 
 <li>Assess future hardware, software, and personnel needs for all departments of a global software company</li> 
 <li>Communicate with the Vice President of Production, Vice President of New Product Development, and Vice President of Sales on critical hardware/software needs of employees</li>
 <li>Recommend, contact, and direct company personnel for team placement on critical tasks to resolve interruption of services and communications</li>
