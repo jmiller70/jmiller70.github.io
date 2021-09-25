@@ -11,6 +11,8 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 <li>Instructional Designer - Lead Instructor - Web Applications - Instructor - ITEC 236</li>
 
 ---
+----
+-----
 2013-August, 2021 - Assistant Director- Information Technology - University Housing-SIUC, Carbondale, Illinois                         
 
  
