@@ -35,8 +35,8 @@ Information Technology Classes Completed
 Undergraduate Information Technology Classes Completed
 ---
 <li>Intro to Security - ITEC 216</li>
-<li>CNetworking Fundamentals - ITEC 224</li>
-<li>CYber Physical Systems - ITEC 365</li>
+<li>Networking Fundamentals - ITEC 224</li>
+<li>Cyber Physical Systems - ITEC 365</li>
 <li>Intro to Programming - ITEC 209</li>
 <li>Programming w/ SQL - ITEC 370</li>
 <li>Database Design & Proc - ITEC 334</li>
