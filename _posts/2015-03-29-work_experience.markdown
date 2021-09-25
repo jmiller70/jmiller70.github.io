@@ -5,8 +5,11 @@ date:   2021-09-24 13:11:36
 categories: jekyll update
 ---
 August, 2021 to Present
-2013-August, 2021
+<li>School of Information Technology-SIUC, Carbondale, Illinois  
+<li>Assistant Lecturer </li>
 
+---
+2013-August, 2021
 <li>University Housing-SIUC, Carbondale, Illinois                         
   </li>
   <li>Assistant Director- Information Technology  </li>
