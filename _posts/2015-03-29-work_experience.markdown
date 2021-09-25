@@ -4,6 +4,8 @@ title:  "Work Experience"
 date:   2021-09-24 13:11:36
 categories: jekyll update
 ---
+----
+-----
 August, 2021 to Present - Assistant Lecturer - School of Information Technology-SIUC, Carbondale, Illinois  
 
 <li>Instructional Designer - Lead Instructor - Programming with SQL - ITEC 370</li>
