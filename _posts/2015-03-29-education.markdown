@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Education"
-date:   2021-09-24 13:11:36
 categories: jekyll update
 ---
 <li>Bachelor of Science, Information Systems Technology, Southern Illinois University, Carbondale, Illinois December 2019
