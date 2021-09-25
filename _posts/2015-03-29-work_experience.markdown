@@ -14,7 +14,6 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 ----
 -----
 2013-August, 2021 - Assistant Director- Information Technology - University Housing-SIUC, Carbondale, Illinois                         
-
  
 <li>Assess future hardware, software, and personnel needs for the IT Department of University Housing</li>
 <li> Communicate with the Director of Housing, Associate Director of Operations, and leadership teams of University Housing to develop and implement IT procedures and initiatives</li>
@@ -30,7 +29,10 @@ August, 2021 to Present - Assistant Lecturer - School of Information Technology-
 <li>Oversee large network of over 200 computers utilized by over 200 employees in University Housing</li>
 
 ---
-2000-2013 - Manager of Technical Support - DxR Development Group, Carbondale, Illinois - 
+----
+-----
+2000-2013 - Manager of Technical Support - DxR Development Group, Carbondale, Illinois
+
 <li>Assess future hardware, software, and personnel needs for all departments of a global software company</li> 
 <li>Communicate with the Vice President of Production, Vice President of New Product Development, and Vice President of Sales on critical hardware/software needs of employees</li>
 <li>Recommend, contact, and direct company personnel for team placement on critical tasks to resolve interruption of services and communications</li>
