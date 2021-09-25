@@ -6,9 +6,10 @@ categories: jekyll update
 ---
 Work Exprience
 
-University Housing-SIUC, Carbondale, Illinois                         2013-Present
-Assistant Director- Information Technology
-	Assess future hardware, software, and personnel needs for the IT Department of University Housing
+<li>University Housing-SIUC, Carbondale, Illinois                         2013-Present
+  </li>
+  <li>Assistant Director- Information Technology  </li>
+  </li>Assess future hardware, software, and personnel needs for the IT Department of University Housing
 	Communicate with the Director of Housing, Associate Director of Operations, and leadership teams of University Housing to develop and implement IT procedures and initiatives
 	Supervise a staff of 5 IT professionals within the operations unit of University Housing
 	Recommend, contact, and direct IT personnel for team placement on critical tasks to resolve interruption of services and communications
