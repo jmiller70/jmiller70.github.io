@@ -20,7 +20,7 @@ categories: jekyll update
 
 <br>
 
-Graduate Information Technology Classes Completed 
+Graduate Courses Completed 
 ---
 <li>Intro to Security - ITEC 501</li>
 <li>Cloud Security - ITEC 502</li>
@@ -31,7 +31,7 @@ Graduate Information Technology Classes Completed
 
 <br>
 
-Undergraduate Information Technology Classes Completed
+Undergraduate Courses Completed
 ---
 <li>Intro to Security - ITEC 216</li>
 <li>Networking Fundamentals - ITEC 224</li>
