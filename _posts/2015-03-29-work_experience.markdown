@@ -6,9 +6,9 @@ categories: jekyll update
 ---
 August, 2021 to Present - Assistant Lecturer - School of Information Technology-SIUC, Carbondale, Illinois  
 
-<li>370</li>
-<li>334</li>
-<li>236</li>
+<li>Instructional Designer - Instructor - Programming with SQL - ITEC 370</li>
+<li>Instructional Designer - Instructor - Database Design & Processing - ITEC 334/li>
+<li>Instructional Designer - Instructor - Web ApplicationsInstructor-  ITEC 236</li>
 
 ---
 2013-August, 2021 - Assistant Director- Information Technology - University Housing-SIUC, Carbondale, Illinois                         
