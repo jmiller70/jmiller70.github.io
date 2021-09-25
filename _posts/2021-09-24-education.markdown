@@ -4,6 +4,7 @@ date: 2021-09-24 13:11:36
 title:  "Education"
 categories: jekyll update
 ---
+
 <li>Bachelor of Science, Information Systems Technology, Southern Illinois University, Carbondale, Illinois -  December 2019
 </li>
 
@@ -18,11 +19,8 @@ categories: jekyll update
 
 
 <br>
-Graduate Studies  
----
 
-<br>
-Information Technology Classes Completed 
+Graduate Information Technology Classes Completed 
 ---
 <li>Intro to Security - ITEC 501</li>
 <li>Cloud Security - ITEC 502</li>
@@ -32,6 +30,7 @@ Information Technology Classes Completed
 <li>CYberintelligence - ITEC 507</li>
 
 <br>
+
 Undergraduate Information Technology Classes Completed
 ---
 <li>Intro to Security - ITEC 216</li>
