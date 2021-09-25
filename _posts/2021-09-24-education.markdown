@@ -27,7 +27,7 @@ Graduate Information Technology Classes Completed
 <li>Cyber Physical Systems - ITEC 503</li>
 <li>Metrics - ITEC 505</li>
 <li>Forensics - ITEC 506</li>
-<li>CYberintelligence - ITEC 507</li>
+<li>Cyberintelligence - ITEC 507</li>
 
 <br>
 
