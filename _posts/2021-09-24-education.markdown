@@ -34,13 +34,18 @@ Information Technology Classes Completed
 <br>
 Undergraduate Information Technology Classes Completed
 ---
-<li>Intro to Security - ITEC 501</li>
-<li>Cloud Security - ITEC 502</li>
-<li>CYber Physical Systems - ITEC 503</li>
-<li>Metrics - ITEC 505</li>
-<li>Forensics - ITEC 506</li>
-<li>CYberintelligence - ITEC 507</li>
-
+<li>Intro to Security - ITEC 216</li>
+<li>CNetworking Fundamentals - ITEC 224</li>
+<li>CYber Physical Systems - ITEC 365</li>
+<li>Intro to Programming - ITEC 209</li>
+<li>Programming w/ SQL - ITEC 370</li>
+<li>Database Design & Proc - ITEC 334</li>
+<li>Web Applications - ITEC 236</li>
+<li>Applied Statisitics - ITEC 265</li>
+<li>Occupational Credit - ITEC 259</li>
+<li>Work Experience Credit in IT - ITEC 358</li>
+<li>Project Management in IT - ITEC 404</li>
+<li>Analysis and Design in IT - ITEC 412</li>
 <br>
 
 
