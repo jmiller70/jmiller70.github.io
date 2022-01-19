@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 <br>
 
-Paper - Learning - SIUC, Carbondale, Illinois  
+Paper - Learning - SIU, Carbondale, Illinois  
 ---
 <li>Paper Discussing Learning in Higher Education, PDF Download Coming Soon </li>
 
