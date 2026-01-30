@@ -1,0 +1,49 @@
+/* @author: jeff miller */
+
+/* the style for the body */
+body {
+    width: 725px;
+    background-color: azure;
+    margin: 10px auto;
+}
+main {
+    width: 50%;
+    height: 500px;
+    background-color: #ffffff; /* this color is for white */
+    float: left;
+}
+aside {
+    width: 50%;
+    height: 500px;
+    background-color: #ffffff; /* this color is for white */
+    float: right;
+}  
+
+h1, h2 {
+    padding: 10px;
+}
+p {
+    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer {
+    clear: both;
+}
+
+ul {
+    padding-left: 10px;
+}
+li {
+    padding-left: 10px;
+}
+.bluetouch img {
+    border: 2px solid #B5D3E7;
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
