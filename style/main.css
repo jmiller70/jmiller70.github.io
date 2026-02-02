@@ -47,3 +47,6 @@ li {
     right: 10px;
     top: 10px;
 }
+img {
+    position: static;
+}
