@@ -1,34 +1,83 @@
 /* @author: jeff miller */
-
+@media only screen and (max-width: 2024px) {
+    #mobile_menu {display: none;}
+}
+@media only screen and (max-width: 959px) {
+    #mobile_menu {display: none;}
+}
+@media only screen and (max-width: 767px) {
+    #mobile_menu {display: block;}
+    #nav_menu { display: none }
+    header h2 { font-size: 1.375em; }
+    header h3 { font-size: .8125em; }
+    p { font-size: 875em; }
+    article h1, main h2, aside h2
+    { font-size: 1em; }
+    aside li { font-size: .875em; }
+}
+@media only screen and (max-width: 479px) {
+    #mobile_menu {display: block;}
+    #nav_menu { display: none }
+    header h2 { font-size: 1.375em; }
+    header h3 { font-size: .8125em; }
+    p { font-size: 875em; }
+    article h1, main h2, aside h2
+    { font-size: 1em; }
+    aside li { font-size: .875em; }   
+}
 /* the style for the body */
 body {
-    width: 725px;
-    background-color: azure;
+    font-size: 1em;      
+    width: 90%;
+    max-width: 1024px;
+    background-color: gray;
     margin: 10px auto;
 }
+header {
+    width: 97.917%;              /* 940/960 * 100 */
+    padding: 10px 1.0417%;
+    clear: both;
+    font-size: 2em;
+}
 main {
-    width: 50%;
-    height: 500px;
+    width: 47.917%;      /* 940/960 * 100 */
+    padding: 10px  1.0417%;
     background-color: #ffffff; /* this color is for white */
     float: left;
 }
 aside {
-    width: 50%;
-    height: 500px;
+    width: 47.917%; 
+    padding: 10px  1.0417%;
     background-color: #ffffff; /* this color is for white */
     float: right;
 }  
 
-h1, h2 {
+h1 {
+    font-size: 1.75em;
+    padding: 10px;
+}
+h2 {
+    font-size: 1.5em;
+    padding: 10px;
+}
+h3 {
+    font-size: 1.125em;
     padding: 10px;
 }
 p {
-    
+    font-size: 1.125em;
     padding-left: 5px;
     padding-right: 5px;
 }
-
+blockquote {
+    width: 47.917%; 
+    padding: 10px  1.0417%;
+    float: center;
+}
 footer {
+    font-size: .75em;
+    width: 97.917%; 
+    padding: 10px 1.0417%;
     clear: both;
 }
 
