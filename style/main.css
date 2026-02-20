@@ -87,6 +87,22 @@ ul {
 li {
     padding-left: 10px;
 }
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1em;
+}
+#nav_menu ul li a {
+    font-weight: bold;
+    color: #ffffff;
+#nav_menu ul li a.current {
+    text-decoration: none; 
+}
 .bluetouch img {
     border: 2px solid #B5D3E7;
     margin: 0;
