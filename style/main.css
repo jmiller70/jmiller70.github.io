@@ -1,108 +1,325 @@
-/* @author: jeff miller */
-@media only screen and (max-width: 2024px) {
-    #mobile_menu {display: none;}
-}
-@media only screen and (max-width: 959px) {
-    #mobile_menu {display: none;}
-}
-@media only screen and (max-width: 767px) {
-    #mobile_menu {display: block;}
-    #nav_menu { display: none }
-    header h2 { font-size: 1.375em; }
-    header h3 { font-size: .8125em; }
-    p { font-size: 875em; }
-    article h1, main h2, aside h2
-    { font-size: 1em; }
-    aside li { font-size: .875em; }
-}
-@media only screen and (max-width: 479px) {
-    #mobile_menu {display: block;}
-    #nav_menu { display: none }
-    header h2 { font-size: 1.375em; }
-    header h3 { font-size: .8125em; }
-    p { font-size: 875em; }
-    article h1, main h2, aside h2
-    { font-size: 1em; }
-    aside li { font-size: .875em; }   
-}
-/* the style for the body */
-body {
-    font-size: 1em;      
-    width: 90%;
-    max-width: 1024px;
-    background-color: gray;
-    margin: 10px auto;
-}
-header {
-    width: 97.917%;              /* 940/960 * 100 */
+/* @author jeff miller, Millers Bicycles CSS Style Page, Southern Illinois University  Developed: 9-14-2019  Tested: 10-27-2019 */ 
+
+
+
+/* tablet landscape and desktop layout (960px or more) */ 
+
+@media only screen and (max-width: 4000px) { 
+    
+h1 {
+    font-size: 1.75em; /* 28 Ã· 16 */ 
+    padding: 10px;
+    }
+
+h2 {
+    font-size: 1.5em; /* 24 Ã· 16 */ 
+    padding: 10px;
+    } 
+
+h3 {
+    font-size: 1.125em; /* 18 Ã· 16 */ 
+    padding: 10px;
+    } 
+#mobile_menu { 
+    display: none; 
+    }
+article {
+    width: 47.917%;      /*  47.917% 480 / 960 * 100 */
     padding: 10px 1.0417%;
-    clear: both;
-    font-size: 2em;
-}
-main {
-    width: 47.917%;      /* 940/960 * 100 */
-    padding: 10px  1.0417%;
-    background-color: #ffffff; /* this color is for white */
-    float: left;
-}
+    background-color: #ffffff; /* this color is white for column panel */
+    float: left; 
+    } 
+    
 aside {
-    width: 47.917%; 
-    padding: 10px  1.0417%;
-    background-color: #ffffff; /* this color is for white */
-    float: right;
-}  
+    width: 47.917%;          /* 47.917% 480 / 960 * 100*/
+    padding: 10px 1.0417%;
+    background-color: #ffffff; /* this color is white for column panel  */
+    float: right; 
+    }
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    }
+textarea {
+    height: 10em; 
+    width: 75em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+th {
+    font-size: 1.6em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}    
+}
+    
+
+/* tablet portrait layout (768px to 959px) */
+
+@media only screen and (max-width: 959px) {
 
 h1 {
-    font-size: 1.75em;
+    font-size: 1.75em; /* 28 Ã· 16 */ 
     padding: 10px;
-}
+    }
+
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5em; /* 24 Ã· 16 */ 
     padding: 10px;
-}
+    } 
+
 h3 {
-    font-size: 1.125em;
+    font-size: 1.125em; /* 18 Ã· 16 */ 
     padding: 10px;
-}
-p {
-    font-size: 1.125em;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-blockquote {
-    width: 47.917%; 
-    padding: 10px  1.0417%;
-    float: center;
-}
-footer {
-    font-size: .75em;
-    width: 97.917%; 
+    } 
+#mobile_menu { 
+    display: none; 
+    }
+
+article {
+    width: 47.917%;          /*  47.917% 480 / 960 * 100 */
     padding: 10px 1.0417%;
-    clear: both;
+    background-color: #ffffff; /* this color is white for column panel */
+    float: left; 
+    }
+    
+aside {
+   
+    width: 47.917%;          /* 47.917% 480 / 960 * 100*/
+    padding: 10px 1.0417%;
+    background-color: #ffffff; /* this color is white for column panel  */
+    float: right; 
+    }
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    }
+textarea {
+    height: 10em; 
+    width: 45em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+th {
+    font-size: 1.4em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}
 }
 
-ul {
-    padding-left: 10px;
+/* mobile landscape layout (480px to 767px) */ 
+
+@media only screen and (max-width: 767px) { 
+#mobile_menu { 
+    display: block; 
+    }
+#nav_menu { 
+    display: none; 
+    }
+    
+header h2 { 
+    font-size: 1.375em; 
+    }       /* 22 Ã· 16 */ 
+header h3 { 
+    font-size: .8125em; 
+    }   /* 13 Ã· 16 */ 
+p { font-size: .875em; 
+    }            /* 14 Ã· 16 */ 
+h1 {
+    font-size: 2.5em; /* 28 Ã· 16 */ 
+    padding: 10px;
+    }
+article h2, aside h2
+        { 
+    font-size: 1.5em; 
+    }             /* base font size */ 
+aside li { 
+    font-size: .875em; 
+    }     /* 14 Ã· 16 */
+background-color: silver;
+header {
+    display: flex;
+    }
+     /* Switch to one column */ 
+main { 
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    } 
+    
+article { 
+    order: 1;
+    width: 97.917%;       /* 940 / 960 * 100 */
+    } 
+aside { 
+    order: 2;
+    width: 97.917%;        /* 940 / 960 * 100 */
+      
+    }
+textarea {
+    height: 10em; 
+    width: 35em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+th {
+    font-size: 1em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}    
 }
+
+/* mobile portrait layout (479px or less) */ 
+
+@media only screen and (max-width: 479px) { 
+
+#mobile_menu { 
+    display: block; 
+    }
+#nav_menu { 
+    display: none; 
+    }
+header h2 { 
+    font-size: 1.375em; 
+    }   /* 22 Ã· 16 */ 
+header h3 { 
+    font-size: .8125em; 
+    }   /* 13 Ã· 16 */ 
+p { font-size: .875em; 
+    }            /* 14 Ã· 16 */ 
+h1 {
+    font-size: 2.5em; /* 28 Ã· 16 */ 
+    padding: 10px;
+    }
+article h2, aside h2 
+        { 
+    font-size: 1.5em; 
+    }             /* base font size */ 
+aside li { 
+    font-size: .875em; 
+    }     /* 14 Ã· 16 */ 
+background-color: silver;
+header {
+    display:flex;
+    }
+    /* Switch to one column */ 
+main {  
+    display:flex;
+    flex-direction: column;
+    padding: 10px 1.0417%;
+    background-color: #ffffff;
+    } 
+    
+article
+    { 
+    order: 1;
+    width: 97.917%;      /* 940 / 960 * 100 */
+      
+    } 
+aside { 
+    order: 2;
+    width: 97.917%;       /* 940 / 960 * 100 */
+       
+    }
+textarea {
+    height: 10em; 
+    width: 35em;
+    margin-left: .5em;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+th {
+    font-size: 1em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}
+}
+
+
+/* the styles for the elements */ 
+body {
+    
+    font-size: 1em;     /* 16 Ã· 16  */
+    width: 90%;          /* changed from 725px;*/
+    max-width 1024px;
+    background-color: gray; /* this color is gray */
+    margin: 10px auto;
+
+    } 
+header { 
+    width: 97.917%;          /* 940 / 960 * 100 */
+    padding: 10px 1.0417%;
+    clear: both; 
+    font-size: 2em;
+    }
+
+
+
+
+p { 
+    font-size: 1.5em; /* 18 Ã· 16 */ 
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+   
+}
+
+blockquote {
+    width: 47.917%;          /* 480 / 960 * 100 */
+    padding: 10px 1.0417%;
+    float: center; 
+    }
+footer { 
+    font-size: .75em; /* 12 Ã· 16 */ 
+    width: 97.917%;            /* 940 / 960 * 100 */
+    padding: 10px 1.0417%;
+    clear: both; 
+    
+    }
+    
+ul { 
+    
+    padding-left: 10px; 
+} 
+
 li {
-    padding-left: 10px;
-}
+    padding-left: 10px; /* space between bullet and text */ 
+   
+   } 
+
+
+/* Navigation css aligned left */ 
 #nav_menu ul {
-    list-style-type: none;
-    padding: 1em 0;
-    font-size: 1.5em;
+    display: flex;
+    flex-basis: 100%;
+    /*flex-direction: column; */
+     /* align-items: center; */
+    justify-content: space-between; 
+    list-style-type: none; padding: 1em 0;
+    font-size: 1.9em;
     text-align: left;
-}
-#nav_menu ul li {
-    display: inline;
-    padding: 0 1em;
-}
-#nav_menu ul li a {
-    font-weight: bold;
-    color: #ffffff;
-#nav_menu ul li a.current {
+    background-color: silver;
+    } 
+
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+    } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #ffffff; 
+    }
+#nav_menu ul li a.current { 
     text-decoration: none; 
-}
+    }
+
+/* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
+
+
+
 figure {
     float: left;
     margin-right: 1.5em; 
@@ -175,16 +392,84 @@ table {
     margin-bottom: 1em; 
     padding-top: .5em;
 }
+
+fieldset {
     
-.bluetouch img {
-    border: 2px solid #B5D3E7;
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-    position: relative;
-    right: 10px;
-    top: 10px;
+   
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    padding-top: .5em;
+} 
+
+legend {
+    color: black; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    margin-bottom: .5em;
+  
 }
-img {
-    position: static;
+
+label, input, select { 
+    font-size: 90%;
+} 
+
+label {
+    float: left; 
+    width: 12em;
+    text-align: right; 
 }
+
+input  { 
+    float: left; 
+    width: 15em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+select { 
+    float: left; 
+    width: 15em;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+}
+input:required, input[required] 
+{ 
+    border: 3px solid red;
+} 
+
+input:valid { 
+    border: 1px solid black; 
+} 
+
+input:invalid { 
+    box-shadow: none; 
+} 
+
+br { 
+    clear: both; 
+}
+
+#buttons input { 
+    width: 10em;
+    float: right; 
+    text-align: left;
+} 
+
+radio {
+    float: left; 
+    width: 9em;
+}
+
+/* music controls for later
+
+{
+  display:none;
+}
+
+audio, embed {
+  position: absolute;
+  z-index: -9999;
+}
+*/
+
+
+
