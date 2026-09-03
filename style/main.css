@@ -1,1 +1,56 @@
 
+/* @author jeff miller, Miller  CSS page
+Southern Illinois University  Developed: 2-03-2026  Tested: 2-03-2026  
+
+Bluetouch was used from: 
+*/
+body {
+    width: 725px;
+    background-color: #8E8E8E;   /* this a gray color */
+    margin: 0px auto;
+}
+
+main {
+   width: 50%;
+   height: 500px;
+   background-color: white;
+   float: left;
+}
+
+aside {
+   width: 50%;
+   height: 500px;
+   background-color: white;
+   float: right;
+}
+h1, h2 {
+    padding: 10px;
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer {
+    clear: both;
+}
+ul {
+    padding-left: 10px;
+}
+li {
+    padding-left: 10px;  /* space between the bullet and text */
+}
+
+img {
+    position: static;
+}
+
+.bluetouch img {
+    border: 2px solid #B5D3E7;
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    position: center;
+    right: 10px;
+    top: 10px;
+}
