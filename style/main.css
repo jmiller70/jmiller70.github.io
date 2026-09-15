@@ -375,7 +375,18 @@ figcaption {
 .cute:hover > .cuter {
   opacity: 0;
 }
-
+.bluetouch img {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #B5D3E7;
+    margin: 0;
+    padding: 0;
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    position: relative;
+    right: 10px; 
+    top: 10px; 
+}
 img {
     width: 100%;
     max-width: 100px;
