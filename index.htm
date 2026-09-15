@@ -8,12 +8,21 @@ Southern Illinois University Developed: 9-04-2026  Tested: 9-04-2026
         <meta charset="utf-8">
         <title>Personal Portfolio</title> 
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
         <meta name="description" content="Resume"> <meta name="keywords" content="Portfolio, resume, Jeff Miller">
     </head>
     <body>   
         <header>
         <div class="bluetouch"><img src="images/image.png" alt="3" width="500"></div>    
         </header> 
+        <!-- Navigation Menu -->
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
             <ul>
