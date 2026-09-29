@@ -124,19 +124,7 @@ li {
     color: #ffffff; }
 #nav_menu ul li a.current { text-decoration: none; }
 
-/* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
-.bluetouch img {
-    width: 100%;
-    max-width: 600px;
-    border: 2px solid #B5D3E7;
-    margin: 0;
-    padding: 0;
-    border-radius: 1000px;
-    -moz-border-radius: 1000px;
-    position: relative;
-    right: 10px; 
-    top: 10px; 
-}
+
 figure {
     float: left;
     margin-right: 1.5em; 
@@ -221,11 +209,6 @@ audio, embed {
 
 
 /* basic images where blue borders are not required */ 
-img {
-    width: 100%;
-    max-width: 100px;
-    position: static;
-}
 
 
     
