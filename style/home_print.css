@@ -1,0 +1,79 @@
+/* 
+Jeff Miller CSS Print page
+
+This commented code is what you want here. */
+
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: white;
+    border: 2px solid black;
+    font-size: 100%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+	border-bottom: 2px solid black;
+	background-image: none;
+}
+header h2 {
+	color: black;
+}
+.shadow {
+	text-shadow: none;
+}
+
+
+nav {
+	display: none;
+}
+
+
+section h2 {
+	color: black;
+}
+
+
+article {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+article img {
+	display: none;
+}
+
+aside img {
+	display: none;
+}
+aside h2, aside h3 {
+	color: black;
+	padding-bottom: 1em;	
+}
+
+
+footer {
+	border-top: 2px solid black;
+	background-color: white;
+}
+footer p {
+	color: black;
+}
+
+
+
+/* Your Current Code Starts Here  Everything up ^ here are the areas to change!
+
+
+
+
+
+the styles for the elements */
